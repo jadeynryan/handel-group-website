@@ -1,0 +1,81 @@
+---
+title: "Opportunities"
+---
+
+### **General Information**
+
+We use mathematical, statistical and computational methods to analyze and model infectious diseases. We do not perform any lab experiments or do field work to collect data. Instead, we closely collaborate with experimentalists and field epidemiologists.
+
+Any of our projects need analytical and computational skills. Most projects require some level of computer programming, mostly done in the R language. For any project, a willingness to learn both the analytical/computational tools and the details of the biological system are crucial.
+
+As an example, check out [this paper from our group](https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0496) and [the supplementary material, which contains all analysis code](https://datadryad.org/stash/dataset/doi:10.5061/dryad.51c59zw4v). If you explore the supplementary material and look at the code, you should get a good idea of the kind of projects we work on in our group.
+
+### **Opportunities for Postdocs**
+
+I might have funding available, though I don’t have an official position posted. But I am always interested to hear from qualified candidates. Reach out, and if I think you might be a good fit, I’ll get back to you and we can talk. Also reach out if you are interested in joining the group and you have your own funding, or you want to develop a proposal for funding based on possible work in our group. Finally, I am open to joint Postdoc arrangements between my group and others, for instance colleagues from [CEID](http://ceid.uga.edu/) or anywhere else at UGA and beyond.
+
+### **Opportunities for Graduate Students**
+
+If you are a current UGA student and interested in our research, contact me and we can discuss if there are ways you can get involved. Also check out opportunities for external funding described below. And if you want to write a proposal with me as mentor, please contact me and we can discuss possible projects. If you are not currently a UGA student, you would need to apply to and be admitted by our program in order to join our research group.
+
+### **Opportunities for Undergraduate Students**
+
+I sometimes have projects that might be suitable for undergraduate students. You will either need to know or be willing to learn programming in R and some statistics or differential equation modeling. If you are interested in doing some infectious disease research, take a look at some of our recent projects (e.g., the one linked to above) and if you like what you see, contact me.
+
+### **External funding Opportunities**
+
+Sometimes I have funding for students and postdocs, sometimes I don’t. In either case, it is very useful for you to apply for your own funding. Getting a grant or fellowship looks very good on your CV. It also gives you more flexibility and security. Below is a list of external funding sources for students and postdocs. Entries are listed in no particular order. This list is by no means complete, and I’m not updating it too often. If you know of any good sources I omitted, or if you find outdated information, please let me know.
+
+*I try to keep the links below updated, if you find any information is not current anymore, please let me know.*
+
+#### **General Funding Resources**
+
+*These funding opportunities apply to individuals at different stages of their careers (students/postdocs).*
+
+[NIH Training Awards (F31, F32, etc.)](http://grants.nih.gov/training/nrsa.htm) (most are US citizens/residents only)
+
+[ORISE - Funding to perform research at the CDC](https://orise.orau.gov/cdc/default.html)
+
+[Association of Schools of Public Health - various funding opportunities](http://www.aspph.org/study/#fellowships-and-internships)
+
+[Ford Foundation Fellowships](http://sites.nationalacademies.org/PGA/FordFellowships/index.htm)
+
+[Big list of links hosted by UC Berkeley](http://grad.berkeley.edu/financial/fellowships_resources.shtml)
+
+[U Penn fellowship list](https://www.curf.upenn.edu/find-fellowships/non-us-fellowships) - a list focusing on fellowships that don’t require U.S. citizenship.
+
+[ProFellow](https://www.profellow.com/) - a website that has a database with various funding resources.
+
+#### **Undergraduate Funding**
+
+[UGA’s Center for Undergraduate Research Opportunities](https://curo.uga.edu/)
+
+#### **Graduate Funding**
+
+[A great list/spreadsheet of funding opportunities for graduate students](https://research.jhu.edu/rdt/funding-opportunities/graduate/)
+
+[Another comprehensive list of different fellowships available for graduate students](http://www.gradschools.com/Article/Graduate-Fellowships/1676.html)
+
+[A list for different types of federal STEM funding opportunities](https://stemgradstudents.science.gov/)
+
+[Graduate Women in Science Fellowships Program](http://www.gwis.org/?page=fellowship_program) (relatively small awards)
+
+[NSF Doctoral Dissertation Improvement Grants](http://www.nsf.gov/pubs/2008/nsf08564/nsf08564.htm)
+
+[Hertz Foundation](http://www.hertzfoundation.org/)
+
+[Department of Energy Computational Science Graduate Fellowship](http://www.krellinst.org/csgf/) (US citizens/residents)
+
+#### **Postdoctoral Funding**
+
+[NSF Information for Postdoctoral Fellows](http://www.nsf.gov/funding/education.jsp?fund_type=3)
+
+[Helen Hay Whitney Foundation Research Fellowships](http://www.hhwf.org/)
+
+[NIH Career Development Awards](http://grants.nih.gov/training/careerdevelopmentawards.htm)
+
+[Life Sciences Research Foundation](http://www.lsrf.org/)
+
+[NSF Information for Postdoctoral Fellows](http://www.nsf.gov/funding/education.jsp?fund_type=3)
+
+[A long list of opportunities listed hosted by UC Berkeley](http://www.spo.berkeley.edu/fund/biopostdoc.html)

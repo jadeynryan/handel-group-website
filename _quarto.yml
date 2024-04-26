@@ -1,19 +1,48 @@
 project:
   type: website
 
+execute:
+  freeze: auto  # re-render only when source changes
+
 website:
-  title: "handel-group-website"
+  title: "Handel Research Group"
+  description: "Handel Research Group website"
+  site-url: https://jadeynryan.github.io/handel-group-website/
+  repo-url: https://github.com/jadeynryan/handel-group-website
+  favicon: images/logo.png
+
   navbar:
+    logo: images/logo.png
+    pinned: true # keeps navbar visible when scrolling
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: news/news.qmd
+        text: News
+      - href: publications.qmd
+        text: Publications
+      - href: projects/projects.qmd
+        text: Projects
+      - href: people/people.qmd
+        text: People
+      - href: resources.qmd
+        text: Resources
+      - href: opportunities.qmd
+        text: Opportunities
+    right:
+      - icon: github
+        file: https://github.com/jadeynryan/handel-group-website
+
+  page-footer:
+    border: true
+    left: "&#169; Andreas Handel 2023 - 2024"
+    center: "Information on this site does not reflect opinions of the University of Georgia."
+    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: [darkly, custom-theme.scss]
+    toc: false
 
 
 

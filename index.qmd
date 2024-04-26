@@ -1,11 +1,15 @@
----
-title: "handel-group-website"
----
+![](images/header.png){fig-align="center"}
 
-This is a Quarto website.
+## Welcome to the Handel Research Group website!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+We are located in the [Department of Epidemiology and Biostatistics](http://www.publichealth.uga.edu/epibio/) within the [College of Public Health](http://www.publichealth.uga.edu/) at the [University of Georgia](https://www.uga.edu/).
 
-```{r}
-1 + 1
-```
+In our group, we study the spread and control of infectious diseases. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.
+
+One part of our research deals with the spread of disease inside an infected **individual**. These **within-host studies** involve modeling pathogen and immune response, and sometimes drugs, to understand what determines disease severity and infectiousness.
+
+The other part of our research concerns the spread and control of disease on the **population** level. These **between-host studies** focus on the dynamics, control and evolution of pathogens.
+
+The ultimate goal of our work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.
+
+More information about our research can be found in the current project descriptions and publications from completed projects.

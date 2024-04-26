@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Text
+$font-family-sans-serif: Roboto, sans-serif;
+$link-color: #7bc0bc;
+$link-hover-color: #fdfb3d;
+
+// Page
+$body-bg: #282A35;
+$body-fg: #f8f8f2;
+
+// Navigation
+$navbar-bg: #278080;
+$navbar-fg: #f8f8f2;
+
+// Footer
+$footer-fg: #d7d5d5;
+
+/*-- scss:rules --*/
