@@ -1,4 +1,4 @@
-![](images/header.png){fig-align="center"}
+![](images/header.png){fig-align="center" fig-alt="Header image with three panels. The first reads 'Handel Research Group. Modeling and analysis of infectious diseases at the individual and population level'. The second panel has a sillouhette of a man with 3 arrows pointing to each other in a triangle with the words: Immune Response, Pathogen, and Symptoms. The word 'Transmission' connects the second and third panels with arrows pointing to three sillouhettes of men and the word 'Evolution'."}
 
 ## Welcome to the Handel Research Group website!
 

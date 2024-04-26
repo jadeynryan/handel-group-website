@@ -42,6 +42,7 @@ website:
 format:
   html:
     theme: [darkly, custom-theme.scss]
+    page-layout: full # https://quarto.org/docs/output-formats/page-layout.html#full
     toc: false
 
 
