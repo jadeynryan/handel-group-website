@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Handel Research Group</title>
+<title>Handel Research Group - Resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -140,22 +140,71 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/header.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Resources</h1>
 </div>
-<section id="welcome-to-the-handel-research-group-website" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-the-handel-research-group-website">Welcome to the Handel Research Group website!</h2>
-<p>We are located in the <a href="http://www.publichealth.uga.edu/epibio/">Department of Epidemiology and Biostatistics</a> within the <a href="http://www.publichealth.uga.edu/">College of Public Health</a> at the <a href="https://www.uga.edu/">University of Georgia</a>.</p>
-<p>In our group, we study the spread and control of infectious diseases. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.</p>
-<p>One part of our research deals with the spread of disease inside an infected <strong>individual</strong>. These <strong>within-host studies</strong> involve modeling pathogen and immune response, and sometimes drugs, to understand what determines disease severity and infectiousness.</p>
-<p>The other part of our research concerns the spread and control of disease on the <strong>population</strong> level. These <strong>between-host studies</strong> focus on the dynamics, control and evolution of pathogens.</p>
-<p>The ultimate goal of our work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.</p>
-<p>More information about our research can be found in the current project descriptions and publications from completed projects.</p>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This page provides brief descriptions and links to various tools we produced or use for our research and teaching.</p>
+<section id="research-resources" class="level3">
+<h3 class="anchored" data-anchor-id="research-resources"><strong>Research Resources</strong></h3>
+<p>In recent years, we made sure that for our publications, all code is supplied as supplementary material. In the past, this was not always possible. To allow as much access and reproducibility to our work as possible, we link here to a collection of programs, scripts and descriptions to produce results in various publications.</p>
+<p>You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn’t. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I will try to help. But my time is limited, and for a lot of the old programs, I might not even remember anymore what exactly I did. That’s especially true for anything Matlab or Fortran since I haven’t used either in years.</p>
+<p><a href="./software/Supercougher_Supplements.zip">TB Cough duration analysis</a> - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is <em>Handel et al 2019 IJTLD</em>.</p>
+<p><a href="./software/TB_MAC_UGA.zip">TB-MAC UGA Model</a> - A file containing the R code and description of the model that was used by us to produce the results described in a multi-model project on TB intervention analysis. The results are described in <em>Houben et al.&nbsp;(2016) Lancet Global Health</em>.</p>
+<p><a href="./software/TBpersistenceCode.zip">TB Persistence</a> - A collection of R scripts to run the simulations described in our 2014 PLoS One publication <em>Modeling the potential impact of host population survival on the evolution of M. tuberculosis latency.</em></p>
+<p><a href="./software/AIVstudy.zip">Avian flu</a> - a collection of R scripts and accompanying data to do the various analyses described in <em>Handel et al.&nbsp;(2013) PLoS Comp Bio</em>.</p>
+<p><a href="./software/resimmcode.zip">resimmcode.m</a> - A short Matlab program that simulates the dynamics of bacteria and drugs during emergence of resistance. A version of this code was used in <em>Handel et al.&nbsp;(2009) JTB</em>.</p>
+<p><a href="./software/gapjunction.zip">Gapjunction ABM</a> - An agent-based simulation, written for the freely available <a href="http://ccl.northwestern.edu/netlogo/">Netlogo platform</a>. The code simulates gap junction mediated antigen transport during the local spread of virus and clearance by CTL. The simulation is described and used in <em>Handel et al.&nbsp;2009 JRSI</em>.</p>
+<p><a href="./software/populationmodel.zip">Bacteria evolution simulation</a> - A Matlab program that simulates the evolution of a bacterial population in repeated exponential growth and serial dilution cycles. A version of this code was used in <em>Handel and Rozen 2009 BMC Evo Bio</em>. Note that this uses the <a href="https://github.com/tminka/lightspeed">lightspeed collection of Matlab functions</a>.</p>
+<p><a href="./software/compensatorymutation.zip">Compensatory Mutations</a> - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details about the mathematical model can be found in <em>Handel et al (2006) PLoS Comp Bio</em>.</p>
+</section>
+<section id="teaching-resources" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-resources"><strong>Teaching Resources</strong></h3>
+<p>I use the materials in this section for several of the classes and workshops I teach. You are of course free to use them independently from any of my courses.</p>
+<section id="software" class="level4">
+<h4 class="anchored" data-anchor-id="software"><strong>Software</strong></h4>
+<p><a href="https://ahgroup.github.io/DSAIDE/"><strong>DSAIDE</strong></a> - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface.</p>
+<p><a href="https://ahgroup.github.io/DSAIRM/"><strong>DSAIRM</strong></a> - Dynamical Systems Approach to Immune Response Modeling. This R package consists of a set of simulations (refered to here as apps) that teach within-host infection dynamics and immune response modeling from a dynamical system perspective. By manipulating the models through a graphical (Shiny) user interface and working through the provided instructions, you can learn about some important concepts of within-host and immmune response modeling.</p>
+<p><a href="https://ahgroup.github.io/modelbuilder/"><strong>modelbuilder</strong></a> - Our latest R package, still in development, that allows users to build their own compartmental simulation models and analyze them without having to write any code.</p>
+<p><a href="https://andreashandel.github.io/flowdiagramr/"><strong>flowdiagramr</strong></a> - Is an - under development - R package that allows users to use R code to make hopefully nice flow diagrams.</p>
+<p><a href="https://andreashandel.github.io/quizgrader/"><strong>quizgrader</strong></a> - Is an R package that can be used to deploy a grading app to a Shiny server and auto-grade student quizzes. I use it in my teaching since I don’t like our university’s LMS.</p>
+</section>
+<section id="online-course-materials" class="level4">
+<h4 class="anchored" data-anchor-id="online-course-materials"><strong>Online Course Materials</strong></h4>
+<p><a href="https://andreashandel.github.io/MADAcourse/"><strong>Modern Applied Data Analysis (MADA)</strong></a> is a course I regularly teach online. All course materials are available online and can be used by anyone for self-learning.</p>
+<p><a href="https://andreashandel.github.io/SMIcourse/"><strong>Simulation Modeling in Immunology (SMI)</strong></a> is a website with course materials covering within-host modeling and immunology. It is, among other things, used as part of an an annual workshop that I co-teach with my colleague Paul Thomas.</p>
+<p><a href="https://andreashandel.github.io/IDEMAcourse/"><strong>Infectious Disease Epidemiology - A model based approach (IDEMA)</strong></a> is a graduate level course I regularly teach online. All materials from this course are avaiable on the website.</p>
+</section>
+<section id="online-books-and-other-materials" class="level4">
+<h4 class="anchored" data-anchor-id="online-books-and-other-materials"><strong>Online Books and other materials</strong></h4>
+<p><a href="https://andreashandel.github.io/IDEMAbook/"><strong>Infectious Disease Epidemiology - A model based approach (IDEMA) - an online textbook</strong></a> this book goes with the course of the same mentioned in the previous section. The book will likely be under perpetual development, with some chapters being more complete than others. Most chapters are fairly readable and complete enough that I use it when I teach a course on that topic. It is however not thoroughly fact-checked, error-corrected, properly referenced, etc. While I have been considering the idea of turning this into a full/real book, in my current thinking the cost-benefit analysis doesn’t pan out. I thus plan to leave it online for free as is, with occasional updates and fixes, but without an attempt to make it polished and complete enough for a printed book.</p>
+<p><a href="https://andreashandel.github.io/research-and-teaching-resources/">Lists with further resources, pertaining to learning R, Data Analysis, and other topics.</a> - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.</p>
+</section>
+</section>
+<section id="group-tools" class="level3">
+<h3 class="anchored" data-anchor-id="group-tools"><strong>Group Tools</strong></h3>
+<p>This section is mainly intended for potential group members so they know what they might be getting themselves into. If others profit from some of the information, even better.</p>
+<p>Our current programming environment of choice is the free and Open Source software <a href="https://www.r-project.org/">R</a>. We use it for almost all of our projects. While not required, using R through <a href="https://www.rstudio.com/">R Studio</a> makes working in R more user/beginner friendly. R Studio is also free. Almost all of our current writing is also done in the R ecosystem using Rmarkdown/bookdown/blogdown, etc.</p>
+<p>In the past, we have used <a href="http://ccl.northwestern.edu/netlogo/">Netlogo</a>, a free agent based simulation platform, for both teaching and research. It is fairly easy to program, has lots of examples and is quite flexible. The main disadvantage is that it’s not that fast.</p>
+<p>Sometimes we need to do a bit of analytics. While <a href="http://www.wolfram.com/products/mathematica/index.html">Mathematica</a> and <a href="http://www.maplesoft.com/">Maple</a> are the two main programs for analytical calculations, they are expensive. We have found that for our purpose, the freely available <a href="http://maxima.sourceforge.net/">Maxima</a> suffices.</p>
+<p>We do all our reference management using the BibTeX format with either <a href="http://jabref.sourceforge.net/">JabRef</a> or <a href="http://www.zotero.org/">Zotero</a> as front end reference manager. Both are free.</p>
+<p>If you need to regularly synchronzie files between different machines, <a href="https://www.dropbox.com/">Dropbox</a>, is very useful. Dropbox even works nicely with large files, such as encrypted <a href="https://www.veracrypt.fr/">VeraCrypt</a> containers. For more structured work and syncing between computers and users, <a href="https://github.com/">Github</a> is our preferred mode of work.</p>
+<p>If you can get people to send you their data, great! But often, that fails, even if the data is already published. A great tool to extract data from figures is the free program <a href="https://markummitchell.github.io/engauge-digitizer/">Engauge Digitizer</a>. The program <a href="http://www.datathief.org/">Data Thief</a> provides similar functionality.</p>
 
 
 </section>
