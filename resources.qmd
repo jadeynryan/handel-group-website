@@ -1,10 +1,11 @@
 ---
 title: "Resources"
+toc: true
 ---
 
 This page provides brief descriptions and links to various tools we produced or use for our research and teaching.
 
-### **Research Resources**
+### Research Resources
 
 In recent years, we made sure that for our publications, all code is supplied as supplementary material. In the past, this was not always possible. To allow as much access and reproducibility to our work as possible, we link here to a collection of programs, scripts and descriptions to produce results in various publications.
 
@@ -26,11 +27,11 @@ You can get the publications from the publication section of this webpage. Some 
 
 [Compensatory Mutations](/software/compensatorymutation.zip) - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details about the mathematical model can be found in *Handel et al (2006) PLoS Comp Bio*.
 
-### **Teaching Resources**
+### Teaching Resources
 
 I use the materials in this section for several of the classes and workshops I teach. You are of course free to use them independently from any of my courses.
 
-#### **Software**
+#### Software
 
 [**DSAIDE**](https://ahgroup.github.io/DSAIDE/) - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface.
 
@@ -42,7 +43,7 @@ I use the materials in this section for several of the classes and workshops I t
 
 [**quizgrader**](https://andreashandel.github.io/quizgrader/) - Is an R package that can be used to deploy a grading app to a Shiny server and auto-grade student quizzes. I use it in my teaching since I don’t like our university’s LMS.
 
-#### **Online Course Materials**
+#### Online Course Materials
 
 [**Modern Applied Data Analysis (MADA)**](https://andreashandel.github.io/MADAcourse/) is a course I regularly teach online. All course materials are available online and can be used by anyone for self-learning.
 
@@ -50,13 +51,13 @@ I use the materials in this section for several of the classes and workshops I t
 
 [**Infectious Disease Epidemiology - A model based approach (IDEMA)**](https://andreashandel.github.io/IDEMAcourse/) is a graduate level course I regularly teach online. All materials from this course are avaiable on the website.
 
-#### **Online Books and other materials**
+#### Online Books and other materials
 
 [**Infectious Disease Epidemiology - A model based approach (IDEMA) - an online textbook**](https://andreashandel.github.io/IDEMAbook/) this book goes with the course of the same mentioned in the previous section. The book will likely be under perpetual development, with some chapters being more complete than others. Most chapters are fairly readable and complete enough that I use it when I teach a course on that topic. It is however not thoroughly fact-checked, error-corrected, properly referenced, etc. While I have been considering the idea of turning this into a full/real book, in my current thinking the cost-benefit analysis doesn’t pan out. I thus plan to leave it online for free as is, with occasional updates and fixes, but without an attempt to make it polished and complete enough for a printed book.
 
 [Lists with further resources, pertaining to learning R, Data Analysis, and other topics.](https://andreashandel.github.io/research-and-teaching-resources/) - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.
 
-### **Group Tools**
+### Group Tools
 
 This section is mainly intended for potential group members so they know what they might be getting themselves into. If others profit from some of the information, even better.
 

@@ -1,5 +1,6 @@
 ---
 title: "Group Members"
+subtitle: "(Listed in alphabetical order)"
 listing: 
   contents: people.yml
   template: people.ejs

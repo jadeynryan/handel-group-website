@@ -1,5 +1,6 @@
 ---
 title: "Opportunities"
+toc: true
 ---
 
 ### **General Information**
@@ -10,19 +11,19 @@ Any of our projects need analytical and computational skills. Most projects requ
 
 As an example, check out [this paper from our group](https://royalsocietypublishing.org/doi/10.1098/rspb.2020.0496) and [the supplementary material, which contains all analysis code](https://datadryad.org/stash/dataset/doi:10.5061/dryad.51c59zw4v). If you explore the supplementary material and look at the code, you should get a good idea of the kind of projects we work on in our group.
 
-### **Opportunities for Postdocs**
+### **Postdocs**
 
 I might have funding available, though I don’t have an official position posted. But I am always interested to hear from qualified candidates. Reach out, and if I think you might be a good fit, I’ll get back to you and we can talk. Also reach out if you are interested in joining the group and you have your own funding, or you want to develop a proposal for funding based on possible work in our group. Finally, I am open to joint Postdoc arrangements between my group and others, for instance colleagues from [CEID](http://ceid.uga.edu/) or anywhere else at UGA and beyond.
 
-### **Opportunities for Graduate Students**
+### **Graduate Students**
 
 If you are a current UGA student and interested in our research, contact me and we can discuss if there are ways you can get involved. Also check out opportunities for external funding described below. And if you want to write a proposal with me as mentor, please contact me and we can discuss possible projects. If you are not currently a UGA student, you would need to apply to and be admitted by our program in order to join our research group.
 
-### **Opportunities for Undergraduate Students**
+### **Undergraduate Students**
 
 I sometimes have projects that might be suitable for undergraduate students. You will either need to know or be willing to learn programming in R and some statistics or differential equation modeling. If you are interested in doing some infectious disease research, take a look at some of our recent projects (e.g., the one linked to above) and if you like what you see, contact me.
 
-### **External funding Opportunities**
+### **External Funding Opportunities**
 
 Sometimes I have funding for students and postdocs, sometimes I don’t. In either case, it is very useful for you to apply for your own funding. Getting a grant or fellowship looks very good on your CV. It also gives you more flexibility and security. Below is a list of external funding sources for students and postdocs. Entries are listed in no particular order. This list is by no means complete, and I’m not updating it too often. If you know of any good sources I omitted, or if you find outdated information, please let me know.
 

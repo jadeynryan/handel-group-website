@@ -136,9 +136,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research-resources" id="toc-research-resources" class="nav-link active" data-scroll-target="#research-resources">Research Resources</a></li>
+  <li><a href="#teaching-resources" id="toc-teaching-resources" class="nav-link" data-scroll-target="#teaching-resources">Teaching Resources</a></li>
+  <li><a href="#group-tools" id="toc-group-tools" class="nav-link" data-scroll-target="#group-tools">Group Tools</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -147,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -161,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This page provides brief descriptions and links to various tools we produced or use for our research and teaching.</p>
 <section id="research-resources" class="level3">
-<h3 class="anchored" data-anchor-id="research-resources"><strong>Research Resources</strong></h3>
+<h3 class="anchored" data-anchor-id="research-resources">Research Resources</h3>
 <p>In recent years, we made sure that for our publications, all code is supplied as supplementary material. In the past, this was not always possible. To allow as much access and reproducibility to our work as possible, we link here to a collection of programs, scripts and descriptions to produce results in various publications.</p>
 <p>You can get the publications from the publication section of this webpage. Some of the code is relatively well documented, some isn’t. Feel free to use and modify the programs any way you want. If you need help understanding certain programs, I will try to help. But my time is limited, and for a lot of the old programs, I might not even remember anymore what exactly I did. That’s especially true for anything Matlab or Fortran since I haven’t used either in years.</p>
 <p><a href="./software/Supercougher_Supplements.zip">TB Cough duration analysis</a> - A zip file containing various supplementary R scripts and codebooks for a superspreading/supercoughing study in TB patients. The manuscript describing this work is <em>Handel et al 2019 IJTLD</em>.</p>
@@ -174,10 +184,10 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="./software/compensatorymutation.zip">Compensatory Mutations</a> - (sparsely documented) Matlab and Fortran programs to simulate the evolution and spread of drug resistance through compensatory mutations. Details about the mathematical model can be found in <em>Handel et al (2006) PLoS Comp Bio</em>.</p>
 </section>
 <section id="teaching-resources" class="level3">
-<h3 class="anchored" data-anchor-id="teaching-resources"><strong>Teaching Resources</strong></h3>
+<h3 class="anchored" data-anchor-id="teaching-resources">Teaching Resources</h3>
 <p>I use the materials in this section for several of the classes and workshops I teach. You are of course free to use them independently from any of my courses.</p>
 <section id="software" class="level4">
-<h4 class="anchored" data-anchor-id="software"><strong>Software</strong></h4>
+<h4 class="anchored" data-anchor-id="software">Software</h4>
 <p><a href="https://ahgroup.github.io/DSAIDE/"><strong>DSAIDE</strong></a> - Dynamical Systems Approaches to Infectious Disease Epidemiology. This is an R package containing multiple Infectious Disease Epidemiology models that the user/student can run through a graphical user interface.</p>
 <p><a href="https://ahgroup.github.io/DSAIRM/"><strong>DSAIRM</strong></a> - Dynamical Systems Approach to Immune Response Modeling. This R package consists of a set of simulations (refered to here as apps) that teach within-host infection dynamics and immune response modeling from a dynamical system perspective. By manipulating the models through a graphical (Shiny) user interface and working through the provided instructions, you can learn about some important concepts of within-host and immmune response modeling.</p>
 <p><a href="https://ahgroup.github.io/modelbuilder/"><strong>modelbuilder</strong></a> - Our latest R package, still in development, that allows users to build their own compartmental simulation models and analyze them without having to write any code.</p>
@@ -185,19 +195,19 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://andreashandel.github.io/quizgrader/"><strong>quizgrader</strong></a> - Is an R package that can be used to deploy a grading app to a Shiny server and auto-grade student quizzes. I use it in my teaching since I don’t like our university’s LMS.</p>
 </section>
 <section id="online-course-materials" class="level4">
-<h4 class="anchored" data-anchor-id="online-course-materials"><strong>Online Course Materials</strong></h4>
+<h4 class="anchored" data-anchor-id="online-course-materials">Online Course Materials</h4>
 <p><a href="https://andreashandel.github.io/MADAcourse/"><strong>Modern Applied Data Analysis (MADA)</strong></a> is a course I regularly teach online. All course materials are available online and can be used by anyone for self-learning.</p>
 <p><a href="https://andreashandel.github.io/SMIcourse/"><strong>Simulation Modeling in Immunology (SMI)</strong></a> is a website with course materials covering within-host modeling and immunology. It is, among other things, used as part of an an annual workshop that I co-teach with my colleague Paul Thomas.</p>
 <p><a href="https://andreashandel.github.io/IDEMAcourse/"><strong>Infectious Disease Epidemiology - A model based approach (IDEMA)</strong></a> is a graduate level course I regularly teach online. All materials from this course are avaiable on the website.</p>
 </section>
 <section id="online-books-and-other-materials" class="level4">
-<h4 class="anchored" data-anchor-id="online-books-and-other-materials"><strong>Online Books and other materials</strong></h4>
+<h4 class="anchored" data-anchor-id="online-books-and-other-materials">Online Books and other materials</h4>
 <p><a href="https://andreashandel.github.io/IDEMAbook/"><strong>Infectious Disease Epidemiology - A model based approach (IDEMA) - an online textbook</strong></a> this book goes with the course of the same mentioned in the previous section. The book will likely be under perpetual development, with some chapters being more complete than others. Most chapters are fairly readable and complete enough that I use it when I teach a course on that topic. It is however not thoroughly fact-checked, error-corrected, properly referenced, etc. While I have been considering the idea of turning this into a full/real book, in my current thinking the cost-benefit analysis doesn’t pan out. I thus plan to leave it online for free as is, with occasional updates and fixes, but without an attempt to make it polished and complete enough for a printed book.</p>
 <p><a href="https://andreashandel.github.io/research-and-teaching-resources/">Lists with further resources, pertaining to learning R, Data Analysis, and other topics.</a> - I maintain a compilation of links and bits of information related to my research and teaching on Github. Mainly as a quick look-up and reminder for myself, though others might find it useful too.</p>
 </section>
 </section>
 <section id="group-tools" class="level3">
-<h3 class="anchored" data-anchor-id="group-tools"><strong>Group Tools</strong></h3>
+<h3 class="anchored" data-anchor-id="group-tools">Group Tools</h3>
 <p>This section is mainly intended for potential group members so they know what they might be getting themselves into. If others profit from some of the information, even better.</p>
 <p>Our current programming environment of choice is the free and Open Source software <a href="https://www.r-project.org/">R</a>. We use it for almost all of our projects. While not required, using R through <a href="https://www.rstudio.com/">R Studio</a> makes working in R more user/beginner friendly. R Studio is also free. Almost all of our current writing is also done in the R ecosystem using Rmarkdown/bookdown/blogdown, etc.</p>
 <p>In the past, we have used <a href="http://ccl.northwestern.edu/netlogo/">Netlogo</a>, a free agent based simulation platform, for both teaching and research. It is fairly easy to program, has lots of examples and is quite flexible. The main disadvantage is that it’s not that fast.</p>
