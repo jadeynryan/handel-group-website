@@ -36,7 +36,7 @@
     - name: Savannah Hammerton
       image: images/people/savannah-hammerton.jpg
       role: PhD Student
-      years: 2022 (MS Student); 2022 - Present (PhD Student)
+      years: 2022 - Present (PhD Student)<br>2022 (MS Student)
       research: Norovirus and Influenza vaccines and correlates of protection
       links:
         - href: https://smhammerton.com/
@@ -47,7 +47,7 @@
     - name: W Zane Billings
       image: images/people/w-zane-billings.jpg
       role: PhD Student
-      years: Summer 2019 (REU Student); 2020 - Present (PhD Student)
+      years: 2020 - Present (PhD Student)<br>Summer 2019 (REU Student)
       research: Influenza vaccines
       links:
         - href: https://wz-billings.rbind.io/
@@ -147,4 +147,118 @@
       research: TB drug treatment modeling
       links:
         - href: https://www.linkedin.com/in/kylie-balotin-a87118110/
+          icon: fa6-brands:linkedin
+
+    - name: Nibiao Zheng
+      image: images/people/nibiao-zheng.jpg
+      role: PhD Student
+      years: 2009 - 2013
+      research: Evolutionary analysis of TB latency
+
+    - name: Priyanka Sunil Parikh
+      image: images/people/priyanka-parikh.jpg
+      role: Undergraduate Researcher
+      years: 2020 - 2022
+      research: Norovirus infection studies
+
+    - name: Rachel Mercaldo
+      image: images/people/rachel-mercaldo.jpg
+      role: PhD Student
+      years: 2018 - 2021
+      research: Ebola, Tuberculosis and SARS-CoV-2
+
+    - name: Salil Goyal
+      image: images/people/salil-goyal.jpg
+      role: REU Student
+      years: 2021
+      research: Teaching resources for Infectious Disease Modeling
+      links:
+        - href: http://linkedin.com/in/salil-goyal
+          icon: fa6-brands:linkedin
+
+    - name: Sang Lee
+      image: images/people/sang-lee.jpg
+      role: Undergraduate Researcher
+      years: 2015
+      research: Analysis of Influenza Severity
+      links:
+        - href: https://www.linkedin.com/in/kylie-balotin-a87118110/
+          icon: fa6-brands:linkedin
+
+    - name: Scott Russell
+      image: images/people/scott-russell.jpg
+      role: MS Student
+      years: 2009 - 2023
+      research: Within-host modeling of norovirus
+
+    - name: Simran Budhwar
+      image: images/people/avatar.jpg
+      role: MS Student
+      years: Summer 2019
+      research: Norovirus patient data analysis
+
+    - name: Sina Solaimanpour
+      image: images/people/sina-solaimanpour.jpg
+      role: MS Student
+      years: 2015 - 2016
+      research: R package development for infectious disease modeling
+      links:
+        - href: https://www.linkedin.com/in/ssolaimanpour/
+          icon: fa6-brands:linkedin
+
+    - name: Taylor Joseph
+      image: images/people/avatar.jpg
+      role: REU Student
+      years: 2015
+      research: TB drug adherence modeling
+
+    - name: Theresa Devasia
+      image: images/people/theresa-devasia.jpg
+      role: Undergraduate Researcher
+      years: 2012 - 2016
+      research: Statistical Analysis of Infectious Disease Data
+      links:
+        - href: https://www.researchgate.net/profile/Theresa_Devasia
+          icon: fa6-brands:researchgate
+
+    - name: Victoria Akin
+      image: images/people/victoria-akin.jpg
+      role: Undergraduate Researcher
+      years: 2009 - 2012
+      research: Within-host influenza infection dynamics
+      links:
+        - href: https://math.duke.edu/people/victoria-s-akin
+          icon: fa-solid:globe
+
+    - name: Wei-En Lu
+      image: images/people/weien-lu.jpg
+      role: REU Student
+      years: 2018
+      research: Dose-Outcome modeling for influenza
+      links:
+        - href: https://www.linkedin.com/in/weienlu/
+          icon: fa6-brands:linkedin
+
+    - name: Yan Li
+      image: images/people/yan-li.jpg
+      role: PhD Student
+      years: 2009 - 2013
+      research: Viral infection dynamics modeling
+      links:
+        - href: https://github.com/yan-cri
+          icon: fa6-brands:github
+        - href: https://www.linkedin.com/in/yan-li-80084213/
+          icon: fa6-brands:linkedin
+
+    - name: Yang Ge
+      image: images/people/yang-ge.png
+      role: PhD Student
+      years: 2018 - 2022
+      research: Role of inoculum dose for Influenza and Norovirus infections and vaccines
+      links:
+        - href: https://yangepi.github.io/
+          icon: fa-solid:globe
+        - href: https://github.com/yangepi
+          icon: fa6-brands:github
+        - href: https://www.linkedin.com/in/yangge86/
           icon: fa6-brands:linkedin
