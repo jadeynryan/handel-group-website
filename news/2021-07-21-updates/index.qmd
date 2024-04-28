@@ -1,0 +1,18 @@
+---
+title: Group Updates Summer 2021
+author: Andreas Handel
+date: '2021-07-21'
+categories:
+  - Publications
+---
+
+[Rachel](/people/rachel-mercaldo/) successfully graduated in spring of 2021 and is now working as a Postdoc at the NIH!
+
+We had two great REU students join us this summer, [Jacqueline](/people/jacqueline-dworaczyk/) and [Salil](/people/salil-goyal/). They made a lot of progress on each of their projects during the summer. Expect to see papers published on those topics soon `r emoji::emoji('smiley')`.
+
+We published a few more papers, they can all be found in the [publications](/publications.html) section of the website. (Well, not anymore, but you can find a link there to locations where you can find them `r emoji::emoji('grin')`).
+
+Together with his colleague [Paul Thomas](https://www.stjude.org/directory/t/paul-thomas.html), Dr. Handel taught another year of within-host modeling and immunology at [SISMID 2021](https://andreashandel.github.io/SISMID2021/). This was the 13th year of teaching this workshop. Materials used in this workshop can be found on our [Simulation Modeling and Immunology website](https://andreashandel.github.io/SMIcourse/).
+
+I've made updates to the website, mostly simplifying things. Let me know if anything does not work.
+

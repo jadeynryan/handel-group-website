@@ -1,0 +1,26 @@
+---
+title: "News from our group"
+listing: 
+  # Include all .qmd from the news folder
+  contents: news
+  # Show categories
+  categories: true
+  # Sort with recent at top
+  sort: date desc
+  fields: 
+    - date
+    - title
+    - description
+    - categories
+---
+
+<!-- The below css code makes the date column skinnier. -->
+
+```{=html}
+<style>
+div.quarto-post .metadata {
+    flex-basis: 15%;
+}
+</style>
+```
+

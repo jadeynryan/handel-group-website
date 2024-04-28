@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>handel-group-website - People</title>
+<title>Handel Research Group - Group Members</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,21 +24,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,9 +67,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-status','listing-people',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-status","listing-people"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-fixed">
@@ -78,8 +136,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">handel-group-website</span>
+    <span class="navbar-title">Handel Research Group</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -117,6 +178,13 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Opportunities</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jadeynryan/handel-group-website"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
 </div>
@@ -124,23 +192,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">People</h1>
+<h1 class="title">Group Members</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -155,7 +221,454 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+<h2>Current Members</h2>
+
+<div class="list grid" style="column-gap: 5px;">
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/andreas-handel.jpg" alt="Photo of Andreas Handel">
+      </div>
+        <h3>Andreas Handel</h3>
+        
+        <p><strong>Professor</strong>
+        
+        
+        
+        <br>
+        Data Analytics and Modeling, with a focus on Infectious Diseases
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.andreashandel.com/">
+          <iconify-icon icon="fa-solid:globe" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://github.com/andreashandel">
+          <iconify-icon icon="fa6-brands:github" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://twitter.com/andreashandel">
+          <iconify-icon icon="fa6-brands:twitter" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://www.linkedin.com/in/andreashandel/">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="http://scholar.google.com/citations?user=bruHK0YAAAAJ&amp;hl=en">
+          <iconify-icon icon="academicons:google-scholar" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://impactstory.org/u/0000-0002-4622-1146">
+          <iconify-icon icon="academicons:impactstory" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="http://orcid.org/0000-0002-4622-1146">
+          <iconify-icon icon="academicons:orcid" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="mailto:ahandel@uga.edu">
+          <iconify-icon icon="fa-solid:envelope" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/hayley-hemme.jpg" alt="Photo of Hayley Hemme">
+      </div>
+        <h3>Hayley Hemme</h3>
+        
+        <p><strong>PhD Student</strong>
+        
+        
+        <br>
+        2023 - Present
+        
+        
+        <br>
+        Influenza vaccination and infection
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.linkedin.com/in/andreashandel/">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://github.com/andreashandel">
+          <iconify-icon icon="fa6-brands:github" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/savannah-hammerton.jpg" alt="Photo of Savannah Hammerton">
+      </div>
+        <h3>Savannah Hammerton</h3>
+        
+        <p><strong>PhD Student</strong>
+        
+        
+        <br>
+        2022 (MS Student); 2022 - Present (PhD Student)
+        
+        
+        <br>
+        Norovirus and Influenza vaccines and correlates of protection
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://smhammerton.com/">
+          <iconify-icon icon="fa-solid:globe" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://www.linkedin.com/in/smhammerton">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/w-zane-billings.jpg" alt="Photo of W Zane Billings">
+      </div>
+        <h3>W Zane Billings</h3>
+        
+        <p><strong>PhD Student</strong>
+        
+        
+        <br>
+        Summer 2019 (REU Student); 2020 - Present (PhD Student)
+        
+        
+        <br>
+        Influenza vaccines
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://wz-billings.rbind.io/">
+          <iconify-icon icon="fa-solid:globe" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://www.linkedin.com/in/zane-b/">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+</div>
+
+<h2>Former Members</h2>
+
+<div class="list grid" style="column-gap: 5px;">
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/alexander-becker.jpg" alt="Photo of Alexander Becker">
+      </div>
+        <h3>Alexander Becker</h3>
+        
+        <p><strong>REU Student</strong>
+        
+        
+        <br>
+        2013
+        
+        
+        <br>
+        TB drug treatment modeling
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://scholar.google.com/citations?user=h6dwPboAAAAJ&amp;hl=en">
+          <iconify-icon icon="academicons:google-scholar" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/amanda-skarlupka.jpg" alt="Photo of Amanda Skarlupka">
+      </div>
+        <h3>Amanda Skarlupka</h3>
+        
+        <p><strong>MS Student</strong>
+        
+        
+        <br>
+        2021 - 2022
+        
+        
+        <br>
+        Quantifying the breadth of antibody responses following influenza vaccination
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.linkedin.com/in/amanda-skarlupka-phd-ms-739496184/">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/annaliese-wieler.jpg" alt="Photo of Annaliese Wieler">
+      </div>
+        <h3>Annaliese Wieler</h3>
+        
+        <p><strong>REU Student</strong>
+        
+        
+        <br>
+        2017
+        
+        
+        <br>
+        Influenza inoculum dose modeling
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.linkedin.com/in/annaliese-wieler-203a11aa/">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/anne-marie-dye.jpg" alt="Photo of Anne Marie Dye">
+      </div>
+        <h3>Anne Marie Dye</h3>
+        
+        <p><strong>Undergraduate Researcher</strong>
+        
+        
+        <br>
+        2021-2022
+        
+        
+        <br>
+        Norovirus infection studies
+        
+        </p>
+
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/annika-cleven.jpg" alt="Photo of Annika Cleven">
+      </div>
+        <h3>Annika Cleven</h3>
+        
+        <p><strong>REU Student</strong>
+        
+        
+        <br>
+        2022
+        
+        
+        <br>
+        Patient and Physician symptom scores for influenza
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.linkedin.com/in/annika-cleven">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/anthony-elengickal.jpg" alt="Photo of Anthony Elengickal">
+      </div>
+        <h3>Anthony Elengickal</h3>
+        
+        <p><strong>Undergraduate Researcher</strong>
+        
+        
+        <br>
+        2020-2022
+        
+        
+        <br>
+        STI transmission
+        
+        </p>
+
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/brian-mcKay.jpg" alt="Photo of Brian McKay">
+      </div>
+        <h3>Brian McKay</h3>
+        
+        <p><strong>PhD Student</strong>
+        
+        
+        <br>
+        2016 - 2019
+        
+        
+        <br>
+        Influenza Epidemiology, Systematic Reviews
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://brianmckay.netlify.app/">
+          <iconify-icon icon="fa-solid:globe" height="1.5em"></iconify-icon>
+          </a>
+        
+          <a class="icon" href="https://github.com/bmckay">
+          <iconify-icon icon="fa6-brands:github" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/isaac-fung.jpg" alt="Photo of Isaac Fung">
+      </div>
+        <h3>Isaac Fung</h3>
+        
+        <p><strong>Postdoctoral Fellow</strong>
+        
+        
+        <br>
+        2009 - 2011
+        
+        
+        <br>
+        Influenza Epidemiology
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://sites.google.com/a/georgiasouthern.edu/fung/">
+          <iconify-icon icon="fa-solid:globe" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/jacqueline-dworaczyk.jpg" alt="Photo of Jacqueline Dworaczyk">
+      </div>
+        <h3>Jacqueline Dworaczyk</h3>
+        
+        <p><strong>REU Student</strong>
+        
+        
+        <br>
+        2021
+        
+        
+        <br>
+        Patient and Physician symptom scores for influenza
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.linkedin.com/in/jacquelinedworaczyk">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/kala-hubbard.jpg" alt="Photo of Kala Hubbard">
+      </div>
+        <h3>Kala Hubbard</h3>
+        
+        <p><strong>MS Student</strong>
+        
+        
+        <br>
+        2020-2022
+        
+        
+        <br>
+        STI transmission
+        
+        </p>
+
+        
+  </div>
+
+  <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="avatar-circle">
+      <img class="avatar avatar-circle" src="images/people/kylie-balotin.jpg" alt="Photo of Kylie Balotin">
+      </div>
+        <h3>Kylie Balotin</h3>
+        
+        <p><strong>REU Student</strong>
+        
+        
+        <br>
+        2014
+        
+        
+        <br>
+        TB drug treatment modeling
+        
+        </p>
+
+        
+        
+          <a class="icon" href="https://www.linkedin.com/in/kylie-balotin-a87118110/">
+          <iconify-icon icon="fa6-brands:linkedin" height="1.5em"></iconify-icon>
+          </a>
+        
+        
+  </div>
+
+</div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -176,13 +689,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -237,7 +743,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/jadeynryan\.github\.io\/handel-group-website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -566,6 +1072,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Andreas Handel 2023 - 2024</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Information on this site does not reflect opinions of the University of Georgia.</p>
+</div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
 
 
 

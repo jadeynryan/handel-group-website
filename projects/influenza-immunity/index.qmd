@@ -1,0 +1,13 @@
+---
+title: Modeling and analysis of influenza immune responses
+date: 2019-02-17
+image: influenza-immunity.png
+categories: 
+  - Immunology
+  - Research
+  - Influenza
+---
+
+![](influenza-immunity.png){fig-align="center" width="500"}
+
+We want to understand what mechanisms lead to good induction of memory immune responses following vaccination, and what mechanisms influence the severity of infections. To that end, we combine statistical and mechanistic models with data. We work on several projects in this area, some are part of the the [Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)](https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/), others are part of the Center for Influenza Disease and Emergence Research (CIDER), a component of NIH’s [Centers of Excellence for Influenza Research and Response (CEIRR)](https://www.ceirr-network.org/), and some are part of the project [Dynamics and Evolution of Immune Responses to Influenza Viruses](https://reporter.nih.gov/project-details/10204919) with colleague [Rustom Antia as PI](http://www.biology.emory.edu/Antia/) and other collaborators.

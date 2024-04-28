@@ -1,0 +1,150 @@
+- status: Current Members
+  people:
+    - name: Andreas Handel
+      image: images/people/andreas-handel.jpg
+      role: Professor
+      research: Data Analytics and Modeling, with a focus on Infectious Diseases
+      links:
+        - href: https://www.andreashandel.com/
+          icon: fa-solid:globe
+        - href: https://github.com/andreashandel
+          icon: fa6-brands:github
+        - href: https://twitter.com/andreashandel
+          icon: fa6-brands:twitter
+        - href: https://www.linkedin.com/in/andreashandel/
+          icon: fa6-brands:linkedin
+        - href: http://scholar.google.com/citations?user=bruHK0YAAAAJ&hl=en
+          icon: academicons:google-scholar
+        - href: https://impactstory.org/u/0000-0002-4622-1146
+          icon: academicons:impactstory
+        - href: http://orcid.org/0000-0002-4622-1146
+          icon: academicons:orcid
+        - href: mailto:ahandel@uga.edu
+          icon: fa-solid:envelope
+
+    - name: Hayley Hemme
+      image: images/people/hayley-hemme.jpg
+      role: PhD Student
+      years: 2023 - Present
+      research: Influenza vaccination and infection
+      links:
+        - href: https://www.linkedin.com/in/andreashandel/
+          icon: fa6-brands:linkedin
+        - href: https://github.com/andreashandel
+          icon: fa6-brands:github
+
+    - name: Savannah Hammerton
+      image: images/people/savannah-hammerton.jpg
+      role: PhD Student
+      years: 2022 (MS Student); 2022 - Present (PhD Student)
+      research: Norovirus and Influenza vaccines and correlates of protection
+      links:
+        - href: https://smhammerton.com/
+          icon: fa-solid:globe
+        - href: https://www.linkedin.com/in/smhammerton
+          icon: fa6-brands:linkedin
+
+    - name: W Zane Billings
+      image: images/people/w-zane-billings.jpg
+      role: PhD Student
+      years: Summer 2019 (REU Student); 2020 - Present (PhD Student)
+      research: Influenza vaccines
+      links:
+        - href: https://wz-billings.rbind.io/
+          icon: fa-solid:globe
+        - href: https://www.linkedin.com/in/zane-b/
+          icon: fa6-brands:linkedin
+
+- status: Former Members
+  people:
+    - name: Alexander Becker
+      image: images/people/alexander-becker.jpg
+      role: REU Student
+      years: 2013
+      research: TB drug treatment modeling
+      links:
+        - href: https://scholar.google.com/citations?user=h6dwPboAAAAJ&hl=en
+          icon: academicons:google-scholar
+
+    - name: Amanda Skarlupka
+      image: images/people/amanda-skarlupka.jpg
+      role: MS Student
+      years: 2021 - 2022
+      research: Quantifying the breadth of antibody responses following influenza vaccination
+      links:
+        - href: https://www.linkedin.com/in/amanda-skarlupka-phd-ms-739496184/
+          icon: fa6-brands:linkedin
+
+    - name: Annaliese Wieler
+      image: images/people/annaliese-wieler.jpg
+      role: REU Student
+      years: 2017
+      research: Influenza inoculum dose modeling
+      links:
+        - href: https://www.linkedin.com/in/annaliese-wieler-203a11aa/
+          icon: fa6-brands:linkedin
+
+    - name: Anne Marie Dye
+      image: images/people/anne-marie-dye.jpg
+      role: Undergraduate Researcher
+      years: 2021-2022
+      research: Norovirus infection studies
+
+    - name: Annika Cleven
+      image: images/people/annika-cleven.jpg
+      role: REU Student
+      years: 2022
+      research: Patient and Physician symptom scores for influenza
+      links:
+        - href: https://www.linkedin.com/in/annika-cleven
+          icon: fa6-brands:linkedin
+
+    - name: Anthony Elengickal
+      image: images/people/anthony-elengickal.jpg
+      role: Undergraduate Researcher
+      years: 2020-2022
+      research: STI transmission
+
+    - name: Brian McKay
+      image: images/people/brian-mcKay.jpg
+      role: PhD Student
+      years: 2016 - 2019
+      research: Influenza Epidemiology, Systematic Reviews
+      links:
+        - href: https://brianmckay.netlify.app/
+          icon: fa-solid:globe
+        - href: https://github.com/bmckay
+          icon: fa6-brands:github
+
+    - name: Isaac Fung
+      image: images/people/isaac-fung.jpg
+      role: Postdoctoral Fellow
+      years: 2009 - 2011
+      research: Influenza Epidemiology
+      links:
+        - href: https://sites.google.com/a/georgiasouthern.edu/fung/
+          icon: fa-solid:globe
+
+    - name: Jacqueline Dworaczyk
+      image: images/people/jacqueline-dworaczyk.jpg
+      role: REU Student
+      years: 2021
+      research: Patient and Physician symptom scores for influenza
+      links:
+        - href: https://www.linkedin.com/in/jacquelinedworaczyk
+          icon: fa6-brands:linkedin
+
+    - name: Kala Hubbard
+      image: images/people/kala-hubbard.jpg
+      role: MS Student
+      years: 2020-2022
+      research: STI transmission
+
+    - name: Kylie Balotin
+      image: images/people/kylie-balotin.jpg
+      role: REU Student
+      years: 2014
+      research: TB drug treatment modeling
+      links:
+        - href: https://www.linkedin.com/in/kylie-balotin-a87118110/
+          icon: fa6-brands:linkedin

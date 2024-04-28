@@ -17,13 +17,13 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: news/news.qmd
+      - href: news.qmd
         text: News
       - href: publications.qmd
         text: Publications
-      - href: projects/projects.qmd
+      - href: projects.qmd
         text: Projects
-      - href: people/people.qmd
+      - href: people.qmd
         text: People
       - href: resources.qmd
         text: Resources

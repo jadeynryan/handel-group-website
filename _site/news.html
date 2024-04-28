@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Handel Research Group - News</title>
+<title>Handel Research Group - News from our group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,15 +30,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,12 +68,69 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.qmd"> 
+    <a class="nav-link" href="./people/people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
@@ -134,21 +193,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Group Members">Group Members <span class="quarto-category-count">(1)</span></div><div class="category" data-category="News">News <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Publications">Publications <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">News</h1>
+<h1 class="title">News from our group</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -160,10 +220,248 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- The below css code makes the date column skinnier. -->
+<style>
+div.quarto-post .metadata {
+    flex-basis: 15%;
+}
+</style>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="News" data-listing-date-sort="1692774000000" data-listing-file-modified-sort="1714245209866" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2022-08-23-updates/index.html" class="no-external">Group Updates Summer 2023</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2022-08-23-updates/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('News'); return false;">
+News
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2022-08-23-updates/index.html" class="no-external">Nobody from the group graduated last year, but Hayley Hemme joined our group as a new PhD student!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2022-08-23-updates/index.html" class="no-external">
+<div class="listing-date">
+Aug 23, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Publications" data-listing-date-sort="1659078000000" data-listing-file-modified-sort="1714245202634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2022-07-29-updates/index.html" class="no-external">Group Updates Summer 2022</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2022-07-29-updates/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Publications'); return false;">
+Publications
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2022-07-29-updates/index.html" class="no-external">We had another great REU student join us this summer, Annika Cleven. Together with Zane, she continued work on a project that Jacqueline started in the prior year. The paper…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2022-07-29-updates/index.html" class="no-external">
+<div class="listing-date">
+Jul 29, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="News" data-listing-date-sort="1652598000000" data-listing-file-modified-sort="1714244398280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2022-05-15-updates/index.html" class="no-external">Group Updates Spring 2022</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2022-05-15-updates/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('News'); return false;">
+News
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2022-05-15-updates/index.html" class="no-external">Three students in the group successfully graduated. Yang Ge is now an assistant professor at the University of Southern Mississippi; Amanda Skarlupka is now a president’s…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2022-05-15-updates/index.html" class="no-external">
+<div class="listing-date">
+May 15, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Publications" data-listing-date-sort="1626850800000" data-listing-file-modified-sort="1714245189764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2021-07-21-updates/index.html" class="no-external">Group Updates Summer 2021</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2021-07-21-updates/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Publications'); return false;">
+Publications
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2021-07-21-updates/index.html" class="no-external">Rachel successfully graduated in spring of 2021 and is now working as a Postdoc at the NIH!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2021-07-21-updates/index.html" class="no-external">
+<div class="listing-date">
+Jul 21, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Publications" data-listing-date-sort="1611734400000" data-listing-file-modified-sort="1714245172068" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2021-01-27-group-site-paper-updates/index.html" class="no-external">Updates for the new year</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2021-01-27-group-site-paper-updates/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Publications'); return false;">
+Publications
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2021-01-27-group-site-paper-updates/index.html" class="no-external">Recently, a new PhD student, Zane, joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He’ll be…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2021-01-27-group-site-paper-updates/index.html" class="no-external">
+<div class="listing-date">
+Jan 27, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Publications" data-listing-date-sort="1599548400000" data-listing-file-modified-sort="1714245049740" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2020-09-08-a-few-more-publications/index.html" class="no-external">A few more publications</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2020-09-08-a-few-more-publications/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Publications'); return false;">
+Publications
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2020-09-08-a-few-more-publications/index.html" class="no-external">We recently had a few new publications come out: One of the PhD thesis chapters of our former student Brian got published in the Proceedings of the Royal Society B, and we…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2020-09-08-a-few-more-publications/index.html" class="no-external">
+<div class="listing-date">
+Sep 8, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Publications" data-listing-date-sort="1587538800000" data-listing-file-modified-sort="1714244368095" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2020-04-22-COVID-projects/index.html" class="no-external">Several COVID-19 related projects</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2020-04-22-COVID-projects/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Publications'); return false;">
+Publications
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2020-04-22-COVID-projects/index.html" class="no-external">Like most infectious disease modelers, we have gotten involved in several COVID-19 related projects recently. A lot of work is done as part of UGA’s Center for the Ecology…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2020-04-22-COVID-projects/index.html" class="no-external">
+<div class="listing-date">
+Apr 22, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Publications" data-listing-date-sort="1577952000000" data-listing-file-modified-sort="1714245029472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2020-01-02-a-few-new-publications/index.html" class="no-external">A few new publications</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2020-01-02-a-few-new-publications/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Publications'); return false;">
+Publications
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2020-01-02-a-few-new-publications/index.html" class="no-external">We recently published a few new papers: An introduction and review of simulation modeling in the within-host/immunology level, a study of cough distribution in TB patients…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2020-01-02-a-few-new-publications/index.html" class="no-external">
+<div class="listing-date">
+Jan 2, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="Group Members" data-listing-date-sort="1575187200000" data-listing-file-modified-sort="1714244335069" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./news/2019-12-01-brian-phd-defense/index.html" class="no-external">PhD student Brian McKay successfully defended his PhD thesis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./news/2019-12-01-brian-phd-defense/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Group Members'); return false;">
+Group Members
+</div>
+</div>
+<div class="listing-description">
+<a href="./news/2019-12-01-brian-phd-defense/index.html" class="no-external">Brian McKay defended his PhD thesis. Congratulations, Dr.&nbsp;McKay! Watch papers from his PhD work come out in the next year, lots of great flu research!</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./news/2019-12-01-brian-phd-defense/index.html" class="no-external">
+<div class="listing-date">
+Dec 1, 2019
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

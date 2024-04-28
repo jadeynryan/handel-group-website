@@ -1,22 +1,46 @@
 /*-- scss:defaults --*/
 
+// Colors
+$primary: #3D4EAF;
+$secondary: #7bc0bc;
+$highlight: #fdfb3d;
+$dark: #282A35;
+$light: #f8f8f2;
+
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 // Text
 $font-family-sans-serif: Roboto, sans-serif;
-$link-color: #7bc0bc;
-$link-hover-color: #fdfb3d;
+$link-color: $secondary;
+$link-hover-color: $highlight;
 
 // Page
-$body-bg: #282A35;
-$body-fg: #f8f8f2;
+$body-bg: $dark;
+$body-fg: $light;
 
 // Navigation
-$navbar-bg: #278080;
-$navbar-fg: #f8f8f2;
-
-// Footer
-$footer-fg: #d7d5d5;
+$navbar-bg: $primary;
+$navbar-fg: $light;
 
 /*-- scss:rules --*/
+
+// Don't underline icons that are links
+.icon {
+  text-decoration: none;
+}
+
+// Headshot photos
+
+// Standardize all photos to 150x150 squares
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    object-fit: cover
+}
+
+// Use border radius to crop the photo to a circle
+.avatar-circle {
+    border-radius: 50%
+}

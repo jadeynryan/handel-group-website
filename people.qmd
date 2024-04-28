@@ -1,0 +1,10 @@
+---
+title: "Group Members"
+listing: 
+  contents: people.yml
+  template: people.ejs
+format: 
+  html: 
+    # Remove anchors after person's name, which better centers their name
+    anchor-sections: false 
+---

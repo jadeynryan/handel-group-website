@@ -1,0 +1,18 @@
+---
+title: "Projects"
+listing: 
+  type: grid
+  contents: projects
+  # Show categories
+  categories: true
+  fields: 
+    - title
+    - image
+    - categories
+    - description
+---
+
+The following projects are the current main areas of research of our group. Side-projects are not listed. For projects and products not directly related to research, such as software, online courses, presentations, and other materials, please see [Dr. Handel’s personal website](https://www.andreashandel.com/).
+
+::: {#projects-listings}
+:::
