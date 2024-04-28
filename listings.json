@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/news/2022-08-23-updates/index.html",
+      "/news/2022-07-29-updates/index.html",
+      "/news/2022-05-15-updates/index.html",
+      "/news/2021-07-21-updates/index.html",
+      "/news/2021-01-27-group-site-paper-updates/index.html",
+      "/news/2020-09-08-a-few-more-publications/index.html",
+      "/news/2020-04-22-COVID-projects/index.html",
+      "/news/2020-01-02-a-few-new-publications/index.html",
+      "/news/2019-12-01-brian-phd-defense/index.html"
+    ]
+  }
+]
