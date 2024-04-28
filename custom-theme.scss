@@ -30,7 +30,7 @@ $navbar-fg: $light;
   text-decoration: none;
 }
 
-// Headshot photos
+// Headshot photos for people page
 
 // Standardize all photos to 150x150 squares
 .avatar {
@@ -43,4 +43,21 @@ $navbar-fg: $light;
 // Use border radius to crop the photo to a circle
 .avatar-circle {
     border-radius: 50%
+}
+
+// Cards for projects page
+
+// Add padding around content within card
+.card {
+  padding: 1em;
+}
+
+// Reduce extra spacing above card title
+.card-title {
+  margin-top: -2em;
+}
+
+// Add spacing between columns of cards
+.card-group {
+  gap: 1em;
 }

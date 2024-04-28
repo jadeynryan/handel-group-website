@@ -326,7 +326,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "The following projects are the current main areas of research of our group. Side-projects are not listed. For projects and products not directly related to research, such as software, online courses, presentations, and other materials, please see Dr. Handel’s personal website.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning better influenza vaccines\n\n\n\nVaccines\n\n\nResearch\n\n\nInfluenza\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel-guided vaccines for norovirus\n\n\n\nVaccines\n\n\nResearch\n\n\nNorovirus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModeling and analysis of influenza immune responses\n\n\n\nImmunology\n\n\nResearch\n\n\nInfluenza\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The following projects are the current main areas of research of our group. Side-projects are not listed. For projects and products not directly related to research, such as software, online courses, presentations, and other materials, please see Dr. Handel’s personal website."
   },
   {
     "objectID": "projects/influenza-immunity/index.html",
@@ -362,5 +362,26 @@
     "title": "Model-guided vaccines for norovirus",
     "section": "",
     "text": "We are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. We analyze and model data that can inform the development and deployment of future norovirus vaccines. This is part of an NIH funded project with collaborators Ben Lopman, Katia Koelle and Juan Leon at Emory, as well as colleagues from other universities, the CDC and Takeda."
+  },
+  {
+    "objectID": "projects.html#designing-better-influenza-vaccines",
+    "href": "projects.html#designing-better-influenza-vaccines",
+    "title": "Projects",
+    "section": "Designing better influenza vaccines",
+    "text": "Designing better influenza vaccines"
+  },
+  {
+    "objectID": "projects.html#model-guided-vaccines-for-norovirus",
+    "href": "projects.html#model-guided-vaccines-for-norovirus",
+    "title": "Projects",
+    "section": "Model-guided vaccines for norovirus",
+    "text": "Model-guided vaccines for norovirus"
+  },
+  {
+    "objectID": "projects.html#modeling-and-analysis-of-influenza-immune-responses",
+    "href": "projects.html#modeling-and-analysis-of-influenza-immune-responses",
+    "title": "Projects",
+    "section": "Modeling and analysis of influenza immune responses",
+    "text": "Modeling and analysis of influenza immune responses"
   }
 ]
