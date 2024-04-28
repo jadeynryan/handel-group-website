@@ -2,10 +2,26 @@
 title: "Group Members"
 subtitle: "(Listed in alphabetical order)"
 listing: 
-  contents: people.yml
-  template: people.ejs
+  - id: current
+    contents: people-current.yml
+    template: people.ejs
+    sort: name
+  - id: former
+    contents: people-former.yml
+    template: people.ejs
+    sort: name
 format: 
   html: 
     # Remove anchors after person's name, which better centers their name
     anchor-sections: false 
 ---
+
+## Current Members
+
+::: {#current}
+:::
+
+## Former Members
+
+::: {#former}
+:::
