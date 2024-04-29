@@ -1,5 +1,6 @@
 project:
   type: website
+  resources: "*.zip" # include software zip files in _site
 
 execute:
   freeze: auto  # re-render only when source changes
@@ -10,6 +11,8 @@ website:
   site-url: https://jadeynryan.github.io/handel-group-website/
   repo-url: https://github.com/jadeynryan/handel-group-website
   favicon: images/logo.png
+  # Google Analytics
+  google-analytics: "UA-48442618-5"
 
   navbar:
     logo: images/logo.png

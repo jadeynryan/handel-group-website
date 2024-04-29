@@ -8,9 +8,9 @@ categories:
 
 Recently, a new PhD student, [Zane](/people/w-zane-billings/), joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He'll be working on influenza vaccines and we are excited to have him part of the team!
 
-We also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the [publications](/publications.html) section of this website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID `r emoji::emoji('smiley')`.
+We also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the [publications](/publications.qmd) section of this website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID 😃.
 
-Related to that, slides for several COVID (and also a few non-COVID) presentations that I gave are available [on my personal website](https://www.andreashandel.com/talk/).
+Related to that, slides for several COVID (and also a few non-COVID) presentations that I gave are available on [my personal website](https://www.andreashandel.com/talk/).
 
 And I also updated this website to the latest Hugo/Academic (now Wowchemy) theme, so if anything doesn't work, let me know.
 
