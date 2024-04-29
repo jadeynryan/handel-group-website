@@ -172,9 +172,9 @@ ga('send', {
 <li><strong>news.qmd</strong>: config for news page</li>
 <li><strong>notes-and-how-to.md</strong>: this help doc</li>
 <li><strong>opportunities.qmd</strong>: config/content for opportunities page</li>
-<li><strong>people-current.yml</strong>: content for people page - list <strong>current</strong> members here</li>
-<li><strong>people-former.yml</strong>: content for people page - list <strong>former</strong> members here</li>
-<li><strong>people.ejs</strong>: <a href="https://quarto.org/docs/websites/website-listings-custom.html#listing-templates">custom EJS template</a> to generate HTML for the people page</li>
+<li><strong>people-current.yml</strong>: content for Group Members page - list <strong>current</strong> members here</li>
+<li><strong>people-former.yml</strong>: content for Group Members page - list <strong>former</strong> members here</li>
+<li><strong>people.ejs</strong>: <a href="https://quarto.org/docs/websites/website-listings-custom.html#listing-templates">custom EJS template</a> to generate HTML for the Group Members page</li>
 <li><strong>people.qmd</strong>: config/content for people page</li>
 <li><strong>projects.qmd</strong>: config/content for projects page</li>
 <li><strong>projects.yml</strong>: content for projects page</li>
@@ -184,7 +184,7 @@ ga('send', {
 </ul>
 </section>
 <section id="how-to-update" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-update">How to update:</h2>
+<h2 class="anchored" data-anchor-id="how-to-update">How to update</h2>
 <section id="home-page" class="level3">
 <h3 class="anchored" data-anchor-id="home-page">Home page</h3>
 <p>Edit <code>index.qmd</code>.</p>
@@ -208,11 +208,55 @@ ga('send', {
 </ul></li>
 </ol>
 </section>
-<section id="people" class="level3">
-<h3 class="anchored" data-anchor-id="people">People</h3>
-
-
+<section id="group-members" class="level3">
+<h3 class="anchored" data-anchor-id="group-members">Group members</h3>
+<p><strong>To change a current member to a former member:</strong></p>
+<ol type="1">
+<li>In <code>people-current.yml</code>, copy the entry and paste into <code>people-former.yml</code>.</li>
+<li>Add the final year in the group to the <code>years:</code> field.</li>
+</ol>
+<p><strong>To add a new member:</strong></p>
+<ol type="1">
+<li>Add their photo to <code>images/people</code>.</li>
+<li>In <code>people-current.yml</code>, copy the entry and modify as needed.
+<ul>
+<li>If they did not provide a photo, you can use <code>images/people/avatar.jpg</code> for the <code>image</code> field.</li>
+</ul></li>
+</ol>
+<section id="custom-listing" class="level4">
+<h4 class="anchored" data-anchor-id="custom-listing">Custom listing</h4>
+<p><code>people.qmd</code> uses a <a href="#0">custom listing</a> template (<code>people.ejs</code>) that generates the HTML of the Group Members page using the content from <code>people-current.yml</code> and <code>people-former.yml</code>. The <code>.yml</code> files (edit these) pass the info for each person to the <code>.ejs</code> file (don’t edit this, unless new fields are needed). The current fields used in the template are: name, image, role, and links. The only fields that are required are name and image.</p>
 </section>
+<section id="member-linksicons" class="level4">
+<h4 class="anchored" data-anchor-id="member-linksicons">Member links/icons</h4>
+<p><code>people.ejs</code> loads and uses the <a href="https://icon-sets.iconify.design/">iconify design</a> javascript package so almost all icon packages are available (e.g., <a href="https://icon-sets.iconify.design/fa6-brands/?list=recent">Font Awesome Brands</a>, <a href="https://icon-sets.iconify.design/academicons/?keyword=aca">Academicons</a>) using the syntax <code>academicons:google-scholar</code> under the <code>icon:</code> field.</p>
+</section>
+</section>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<p>Edit <code>resources.qmd</code>.</p>
+<p>To add new software zip files, add them to the <code>software</code> folder.</p>
+</section>
+<section id="opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="opportunities">Opportunities</h3>
+<p>Edit <code>opportunities.qmd</code>.</p>
+</section>
+<section id="styletheme" class="level3">
+<h3 class="anchored" data-anchor-id="styletheme">Style/theme</h3>
+<p>To change the base theme from <a href="https://bootswatch.com/darkly/">darkly</a>, edit <code>_quarto.yml</code> → <code>format:</code> &gt; <code>html:</code> &gt; <code>theme:</code>. For more info on HTML theme options, see these <a href="https://quarto.org/docs/output-formats/html-themes.html">Quarto Docs</a>.</p>
+<p>To change the fonts or colors, or further customize the appearance, edit <code>custom-theme.scss</code>. Read more on <a href="https://quarto.org/docs/output-formats/html-themes-more.html">Quarto custom theming</a> or see the full <a href="https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss">darkly.scss theme</a> to see more variables to customize.</p>
+</section>
+</section>
+<section id="preview-website" class="level2">
+<h2 class="anchored" data-anchor-id="preview-website">Preview website</h2>
+<p>In the <code>Terminal</code>, run <code>quarto preview</code>. Changes made to most* files will cause automatic re-rendering and the preview will update.</p>
+<p>*Sometimes <code>_quarto.yml</code>, <code>people-current.yml</code>, <code>people-former.yml</code>, and <code>people.ejs</code> will not automatically re-render and update the preview. In these cases, make a change to a <code>.qmd</code> file (add a space or line break somewhere, and then delete).</p>
+</section>
+<section id="render-website" class="level2">
+<h2 class="anchored" data-anchor-id="render-website">Render website</h2>
+<p>In the <code>Terminal</code>, run <code>quarto render</code>. This will render the website files into the <code>_site</code> folder, which can be copied to the UGA server.</p>
+
+
 </section>
 
 </main> <!-- /main -->
