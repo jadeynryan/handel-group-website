@@ -53,35 +53,14 @@
     "href": "news/2021-01-27-group-site-paper-updates/index.html",
     "title": "Updates for the new year",
     "section": "",
-    "text": "Recently, a new PhD student, Zane, joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He’ll be working on influenza vaccines and we are excited to have him part of the team!\nWe also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the publications section of this website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID r emoji::emoji('smiley').\nRelated to that, slides for several COVID (and also a few non-COVID) presentations that I gave are available on my personal website.\nAnd I also updated this website to the latest Hugo/Academic (now Wowchemy) theme, so if anything doesn’t work, let me know."
+    "text": "Recently, a new PhD student, Zane, joined our group. He previously did an REU in our group and liked it enough to apply to our PhD program and now joined the team. He’ll be working on influenza vaccines and we are excited to have him part of the team!\nWe also published several more COVID-19 papers (as well as a few non-COVID ones), they can all be found in the publications section of this website, and you can filter there by topic/pathogen if you are especially (not) interested in COVID 😃.\nRelated to that, slides for several COVID (and also a few non-COVID) presentations that I gave are available on my personal website.\nAnd I also updated this website to the latest Hugo/Academic (now Wowchemy) theme, so if anything doesn’t work, let me know."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html#welcome-to-the-handel-research-group-website",
-    "href": "index.html#welcome-to-the-handel-research-group-website",
-    "title": "Handel Research Group",
-    "section": "Welcome to the Handel Research Group website!",
-    "text": "Welcome to the Handel Research Group website!\nWe are located in the Department of Epidemiology and Biostatistics within the College of Public Health at the University of Georgia.\nIn our group, we study the spread and control of infectious diseases. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.\nOne part of our research deals with the spread of disease inside an infected individual. These within-host studies involve modeling pathogen and immune response, and sometimes drugs, to understand what determines disease severity and infectiousness.\nThe other part of our research concerns the spread and control of disease on the population level. These between-host studies focus on the dynamics, control and evolution of pathogens.\nThe ultimate goal of our work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.\nMore information about our research can be found in the current project descriptions and publications from completed projects."
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News from our group",
-    "section": "",
-    "text": "Group Updates Summer 2023\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nAug 23, 2023\n\n\n\n\n\n\n\nGroup Updates Summer 2022\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJul 29, 2022\n\n\n\n\n\n\n\nGroup Updates Spring 2022\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMay 15, 2022\n\n\n\n\n\n\n\nGroup Updates Summer 2021\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJul 21, 2021\n\n\n\n\n\n\n\nUpdates for the new year\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJan 27, 2021\n\n\n\n\n\n\n\nA few more publications\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nSep 8, 2020\n\n\n\n\n\n\n\nSeveral COVID-19 related projects\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nApr 22, 2020\n\n\n\n\n\n\n\nA few new publications\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJan 2, 2020\n\n\n\n\n\n\n\nPhD student Brian McKay successfully defended his PhD thesis\n\n\n\n\n\n\nGroup Members\n\n\n\n\n\n\n\n\n\nDec 1, 2019\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "notes-and-how-to.html",
-    "href": "notes-and-how-to.html",
-    "title": "Handel Research Group",
-    "section": "",
-    "text": "quarto publish then push to GitHub since quarto publish re-renders the site and changes the _freeze and _site contents.\nhttps://github.com/schochastics/academicons"
+    "text": "All our group publications used to be listed here, with the ability to filter by topic, and the ability to download the citation information and the pdfs for each paper. It was nice, but it was tedious to maintain. Things kept breaking and requiring a lot of manual, time-consuming intervention. So I finally gave up. Now, instead of trying to manage publications on this website, I’m just pointing to my (fairly well maintained) publication entries at NCBI/NIH My Bibliography or Google Scholar.\nOf course, those only show papers where I (Andreas) am a co-author. There are some papers that members of our group co-authored on which I am not listed. To find those, go to that group member’s website. Also note that neither listing is great. For some reason, NCBI adds papers that come from co-authors funded by the same grants, even if we are not involved. And Google sometimes indexes pre-prints and posters. Either way, you should be able to figure out what we are up to.\nI believe that tax-payer funded research findings should be publicly available and not behind a pay-wall. One nice feature about listing all papers here was that I could provide pdfs to all of them. With the new setup, this doesn’t work anymore. You should be able to get pdfs of either the final paper or the draft through the NCBI/NIH My Bibliography link. If for any reason you can’t get the final published paper and want it, please contact me and I’d be happy to send you the pdf."
   },
   {
     "objectID": "projects.html",
@@ -112,11 +91,39 @@
     "text": "Modeling and analysis of influenza immune responses"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "notes-and-how-to.html",
+    "href": "notes-and-how-to.html",
+    "title": "Handel Research Group",
     "section": "",
-    "text": "All our group publications used to be listed here, with the ability to filter by topic, and the ability to download the citation information and the pdfs for each paper. It was nice, but it was tedious to maintain. Things kept breaking and requiring a lot of manual, time-consuming intervention. So I finally gave up. Now, instead of trying to manage publications on this website, I’m just pointing to my (fairly well maintained) publication entries at NCBI/NIH My Bibliography or Google Scholar.\nOf course, those only show papers where I (Andreas) am a co-author. There are some papers that members of our group co-authored on which I am not listed. To find those, go to that group member’s website. Also note that neither listing is great. For some reason, NCBI adds papers that come from co-authors funded by the same grants, even if we are not involved. And Google sometimes indexes pre-prints and posters. Either way, you should be able to figure out what we are up to.\nI believe that tax-payer funded research findings should be publicly available and not behind a pay-wall. One nice feature about listing all papers here was that I could provide pdfs to all of them. With the new setup, this doesn’t work anymore. You should be able to get pdfs of either the final paper or the draft through the NCBI/NIH My Bibliography link. If for any reason you can’t get the final published paper and want it, please contact me and I’d be happy to send you the pdf."
+    "text": "README.md: content shown in GitHub repository\n_freeze: storage for computational results of documents\n_quarto.yml: config file for site metadata, website options (navigation, Google Analytics tag), and html options\n_site: rendered site files to be copied to UGA server\ncustom-theme.scss: SCSS and CSS for styling website\nhandel-group-website.Rproj: RStudio project file\nimages: header image, logo, and subfolders for images for people & project pages\nindex.qmd: config/content for home page\nnews: folder for news/group updates (each post should be a subfolder)\nnews.qmd: config for news page\nnotes-and-how-to.md: this help doc\nopportunities.qmd: config/content for opportunities page\npeople-current.yml: content for people page - list current members here\npeople-former.yml: content for people page - list former members here\npeople.ejs: custom EJS template to generate HTML for the people page\npeople.qmd: config/content for people page\nprojects.qmd: config/content for projects page\nprojects.yml: content for projects page\npublications.qmd: config/content for publications page\nresources.qmd: config/content for resources page\nsoftware: zip files for software linked for download in the resources page"
+  },
+  {
+    "objectID": "notes-and-how-to.html#repo-contents",
+    "href": "notes-and-how-to.html#repo-contents",
+    "title": "Handel Research Group",
+    "section": "",
+    "text": "README.md: content shown in GitHub repository\n_freeze: storage for computational results of documents\n_quarto.yml: config file for site metadata, website options (navigation, Google Analytics tag), and html options\n_site: rendered site files to be copied to UGA server\ncustom-theme.scss: SCSS and CSS for styling website\nhandel-group-website.Rproj: RStudio project file\nimages: header image, logo, and subfolders for images for people & project pages\nindex.qmd: config/content for home page\nnews: folder for news/group updates (each post should be a subfolder)\nnews.qmd: config for news page\nnotes-and-how-to.md: this help doc\nopportunities.qmd: config/content for opportunities page\npeople-current.yml: content for people page - list current members here\npeople-former.yml: content for people page - list former members here\npeople.ejs: custom EJS template to generate HTML for the people page\npeople.qmd: config/content for people page\nprojects.qmd: config/content for projects page\nprojects.yml: content for projects page\npublications.qmd: config/content for publications page\nresources.qmd: config/content for resources page\nsoftware: zip files for software linked for download in the resources page"
+  },
+  {
+    "objectID": "notes-and-how-to.html#how-to-update",
+    "href": "notes-and-how-to.html#how-to-update",
+    "title": "Handel Research Group",
+    "section": "How to update:",
+    "text": "How to update:\n\nHome page\nEdit index.qmd.\n\n\nNews\nCopy an existing subfolder of /news and modify as needed. news.qmd will automatically include this new post as an entry on the News page’s listing.\n\n\nPublications\nEdit publications.qmd.\n\n\nProjects\n\nAdd an image to images/projects/.\nEdit projects.qmd.\n\nCopy a card div (starts with :::: {.card} and ends with ::::)\nModify the card title, image, and description.\n\n\n\n\nPeople"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News from our group",
+    "section": "",
+    "text": "Group Updates Summer 2023\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nAug 23, 2023\n\n\n\n\n\n\n\nGroup Updates Summer 2022\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJul 29, 2022\n\n\n\n\n\n\n\nGroup Updates Spring 2022\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\nMay 15, 2022\n\n\n\n\n\n\n\nGroup Updates Summer 2021\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJul 21, 2021\n\n\n\n\n\n\n\nUpdates for the new year\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJan 27, 2021\n\n\n\n\n\n\n\nA few more publications\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nSep 8, 2020\n\n\n\n\n\n\n\nSeveral COVID-19 related projects\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nApr 22, 2020\n\n\n\n\n\n\n\nA few new publications\n\n\n\n\n\n\nPublications\n\n\n\n\n\n\n\n\n\nJan 2, 2020\n\n\n\n\n\n\n\nPhD student Brian McKay successfully defended his PhD thesis\n\n\n\n\n\n\nGroup Members\n\n\n\n\n\n\n\n\n\nDec 1, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#welcome-to-the-handel-research-group-website",
+    "href": "index.html#welcome-to-the-handel-research-group-website",
+    "title": "Handel Research Group",
+    "section": "Welcome to the Handel Research Group website!",
+    "text": "Welcome to the Handel Research Group website!\nWe are located in the Department of Epidemiology and Biostatistics within the College of Public Health at the University of Georgia.\nIn our group, we study the spread and control of infectious diseases. We use mathematical models, computational simulations and statistical analysis to understand the dynamics of pathogens on different spatial and temporal scales.\nOne part of our research deals with the spread of disease inside an infected individual. These within-host studies involve modeling pathogen and immune response, and sometimes drugs, to understand what determines disease severity and infectiousness.\nThe other part of our research concerns the spread and control of disease on the population level. These between-host studies focus on the dynamics, control and evolution of pathogens.\nThe ultimate goal of our work is to help design better intervention and control strategies against infectious diseases, both for individual patients and on the population level.\nMore information about our research can be found in the current project descriptions and publications from completed projects."
   },
   {
     "objectID": "news/2020-04-22-COVID-projects/index.html",
@@ -137,7 +144,7 @@
     "href": "news/2021-07-21-updates/index.html",
     "title": "Group Updates Summer 2021",
     "section": "",
-    "text": "Rachel successfully graduated in spring of 2021 and is now working as a Postdoc at the NIH!\nWe had two great REU students join us this summer, Jacqueline and Salil. They made a lot of progress on each of their projects during the summer. Expect to see papers published on those topics soon r emoji::emoji('smiley').\nWe published a few more papers, they can all be found in the publications section of the website. (Well, not anymore, but you can find a link there to locations where you can find them r emoji::emoji('grin')).\nTogether with his colleague Paul Thomas, Dr. Handel taught another year of within-host modeling and immunology at SISMID 2021. This was the 13th year of teaching this workshop. Materials used in this workshop can be found on our Simulation Modeling and Immunology website.\nI’ve made updates to the website, mostly simplifying things. Let me know if anything does not work."
+    "text": "Rachel successfully graduated in spring of 2021 and is now working as a Postdoc at the NIH!\nWe had two great REU students join us this summer, Jacqueline and Salil. They made a lot of progress on each of their projects during the summer. Expect to see papers published on those topics soon 😃.\nWe published a few more papers, they can all be found in the publications section of the website. (Well, not anymore, but you can find a link there to locations where you can find them 😁).\nTogether with his colleague Paul Thomas, Dr. Handel taught another year of within-host modeling and immunology at SISMID 2021. This was the 13th year of teaching this workshop. Materials used in this workshop can be found on our Simulation Modeling and Immunology website.\nI’ve made updates to the website, mostly simplifying things. Let me know if anything does not work."
   },
   {
     "objectID": "news/2019-12-01-brian-phd-defense/index.html",

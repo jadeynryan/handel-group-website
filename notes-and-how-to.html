@@ -67,6 +67,20 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-48442618-5', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+
 
 </head>
 
@@ -143,10 +157,63 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><code>quarto publish</code> then push to GitHub since <code>quarto publish</code> re-renders the site and changes the <code>_freeze</code> and <code>_site</code> contents.</p>
-<p><a href="https://github.com/schochastics/academicons" class="uri">https://github.com/schochastics/academicons</a></p>
+<section id="repo-contents" class="level2">
+<h2 class="anchored" data-anchor-id="repo-contents">Repo contents</h2>
+<ul>
+<li><strong>README.md</strong>: content shown in GitHub repository</li>
+<li><strong>_freeze</strong>: <a href="https://quarto.org/docs/projects/code-execution.html#freeze">storage for computational results of documents</a></li>
+<li><strong>_quarto.yml</strong>: <a href="https://quarto.org/docs/websites/#config-file">config file</a> for site metadata, website options (<a href="https://quarto.org/docs/websites/website-navigation.html">navigation</a>, <a href="https://quarto.org/docs/websites/website-tools.html#google-analytics">Google Analytics tag</a>), and <a href="https://quarto.org/docs/output-formats/html-basics.html">html options</a></li>
+<li><strong>_site</strong>: rendered site files to be copied to UGA server</li>
+<li><strong>custom-theme.scss</strong>: SCSS and CSS for styling website</li>
+<li><strong>handel-group-website.Rproj</strong>: RStudio project file</li>
+<li><strong>images</strong>: header image, logo, and subfolders for images for people &amp; project pages</li>
+<li><strong>index.qmd</strong>: config/content for home page</li>
+<li><strong>news</strong>: folder for news/group updates (each post should be a subfolder)</li>
+<li><strong>news.qmd</strong>: config for news page</li>
+<li><strong>notes-and-how-to.md</strong>: this help doc</li>
+<li><strong>opportunities.qmd</strong>: config/content for opportunities page</li>
+<li><strong>people-current.yml</strong>: content for people page - list <strong>current</strong> members here</li>
+<li><strong>people-former.yml</strong>: content for people page - list <strong>former</strong> members here</li>
+<li><strong>people.ejs</strong>: <a href="https://quarto.org/docs/websites/website-listings-custom.html#listing-templates">custom EJS template</a> to generate HTML for the people page</li>
+<li><strong>people.qmd</strong>: config/content for people page</li>
+<li><strong>projects.qmd</strong>: config/content for projects page</li>
+<li><strong>projects.yml</strong>: content for projects page</li>
+<li><strong>publications.qmd</strong>: config/content for publications page</li>
+<li><strong>resources.qmd</strong>: config/content for resources page</li>
+<li><strong>software</strong>: zip files for software linked for download in the resources page</li>
+</ul>
+</section>
+<section id="how-to-update" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-update">How to update:</h2>
+<section id="home-page" class="level3">
+<h3 class="anchored" data-anchor-id="home-page">Home page</h3>
+<p>Edit <code>index.qmd</code>.</p>
+</section>
+<section id="news" class="level3">
+<h3 class="anchored" data-anchor-id="news">News</h3>
+<p>Copy an existing subfolder of <code>/news</code> and modify as needed. <code>news.qmd</code> will automatically include this new post as an entry on the News page’s listing.</p>
+</section>
+<section id="publications" class="level3">
+<h3 class="anchored" data-anchor-id="publications">Publications</h3>
+<p>Edit <code>publications.qmd</code>.</p>
+</section>
+<section id="projects" class="level3">
+<h3 class="anchored" data-anchor-id="projects">Projects</h3>
+<ol type="1">
+<li>Add an image to <code>images/projects/</code>.</li>
+<li>Edit <code>projects.qmd</code>.
+<ul>
+<li>Copy a card div (starts with <code>:::: {.card}</code> and ends with <code>::::</code>)</li>
+<li>Modify the card title, image, and description.</li>
+</ul></li>
+</ol>
+</section>
+<section id="people" class="level3">
+<h3 class="anchored" data-anchor-id="people">People</h3>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
