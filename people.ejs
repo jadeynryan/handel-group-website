@@ -1,4 +1,7 @@
 ```{=html}
+
+<!-- For details on what this files does, see /notes-and-how-to.html#group-members -->
+
 <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 
 <div class="list grid" style="column-gap: 5px">
@@ -12,18 +15,25 @@
                 src="<%= item.image %>"
                 alt="Photo of <%= item.name %>" />
         </div>
+
         <h3><%= item.name %></h3>
+
         <% if (item.role) { %>
         <p>
             <strong><%= item.role %></strong>
-            <% } %> <% if (item.years) { %>
-            <br />
-            <%= item.years %> <% } %> <% if (item.research) { %>
-            <br />
+            <% } %>
+
+            <% if (item.years) { %>
+            <br>
+            <%= item.years %> <% } %>
+
+            <% if (item.research) { %>
+            <br>
             <%= item.research %> <% } %>
         </p>
 
-        <% if (item.links) { %> <% for (const link of item.links) { %>
+        <% if (item.links) { %>
+        <% for (const link of item.links) { %>
         <a class="icon" href="<%= link.href %>">
             <iconify-icon icon="<%= link.icon %>" height="1.5em"></iconify-icon>
         </a>

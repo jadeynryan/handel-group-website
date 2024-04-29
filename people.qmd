@@ -2,6 +2,9 @@
 title: "Group Members"
 subtitle: "(Listed in alphabetical order)"
 listing: 
+# Two listings: one for current members and one for former
+# Edit info for each person is in people-current/former.yml
+# Custom template from people.ejs (shouldn't need to edit)
   - id: current
     contents: people-current.yml
     template: people.ejs
@@ -12,9 +15,11 @@ listing:
     sort: name
 format: 
   html: 
-    # Remove anchors after person's name, which better centers their name
+    # Remove section anchors to better center name
     anchor-sections: false 
 ---
+
+<!-- use section headers between listings https://quarto.org/docs/websites/website-listings.html#listing-location -->
 
 ## Current Members
 

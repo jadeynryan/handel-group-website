@@ -1,36 +1,38 @@
 /*-- scss:defaults --*/
 
-// Colors
+// darkly bootswatch variables: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$font-family-sans-serif: Roboto, sans-serif;
+
+// Set color variables
 $primary: #3D4EAF;
 $secondary: #7bc0bc;
 $highlight: #fdfb3d;
 $dark: #282A35;
 $light: #f8f8f2;
 
-// Fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-// Text
-$font-family-sans-serif: Roboto, sans-serif;
+// Link colors
 $link-color: $secondary;
 $link-hover-color: $highlight;
 
-// Page
+// Page body colors
 $body-bg: $dark;
 $body-fg: $light;
 
-// Navigation
+// Navigation bar colors
 $navbar-bg: $primary;
 $navbar-fg: $light;
 
 /*-- scss:rules --*/
 
-// Don't underline icons that are links
+/// Don't underline icons that are links (important for Group Members page)
 .icon {
   text-decoration: none;
 }
 
-// Headshot photos for people page
+/// Group Members page: headshot photos
 
 // Standardize all photos to 150x150 squares
 .avatar {
@@ -45,7 +47,7 @@ $navbar-fg: $light;
     border-radius: 50%
 }
 
-// Cards for projects page
+/// Projects page: cards
 
 // Add padding around content within card
 .card {
@@ -60,4 +62,11 @@ $navbar-fg: $light;
 // Add spacing between columns of cards
 .card-group {
   gap: 1em;
+}
+
+/// Inline code
+p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
+    color: lighten($secondary, 5);
+    background-color: lighten($dark, 20);
+    padding: .2em;
 }

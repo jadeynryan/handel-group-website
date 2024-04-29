@@ -15,7 +15,7 @@ listing:
     - categories
 ---
 
-<!-- The below css code makes the date column skinnier. -->
+<!-- The below html/css code makes the date column skinnier. -->
 
 ```{=html}
 <style>

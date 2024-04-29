@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-toc: true
+toc: true # show table of contents
 ---
 
 This page provides brief descriptions and links to various tools we produced or use for our research and teaching.
