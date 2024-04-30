@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-// darkly bootswatch variables: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss
+// flatly bootswatch variables: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/flatly.scss
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -8,18 +8,16 @@ $font-family-sans-serif: Roboto, sans-serif;
 
 // Set color variables
 $primary: #3D4EAF;
-$secondary: #7bc0bc;
-$highlight: #fdfb3d;
 $dark: #282A35;
 $light: #f8f8f2;
 
 // Link colors
-$link-color: $secondary;
-$link-hover-color: $highlight;
+$link-color: $primary;
+$link-hover-color: darken($primary, 20);
 
 // Page body colors
-$body-bg: $dark;
-$body-fg: $light;
+$body-bg: $light;
+$body-fg: $dark;
 
 // Navigation bar colors
 $navbar-bg: $primary;
@@ -66,7 +64,7 @@ $navbar-fg: $light;
 
 /// Inline code
 p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
-    color: lighten($secondary, 5);
-    background-color: lighten($dark, 20);
+    color: $primary;
+    background-color: darken($light, 10);
     padding: .2em;
 }

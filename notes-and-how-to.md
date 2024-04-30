@@ -76,9 +76,9 @@ Edit `opportunities.qmd`.
 
 ### Style/theme
 
-To change the base theme from [darkly](https://bootswatch.com/darkly/), edit `_quarto.yml` → `format:` \> `html:` \> `theme:`. For more info on HTML theme options, see these [Quarto Docs](https://quarto.org/docs/output-formats/html-themes.html).
+To change the base theme from flatly, edit `_quarto.yml` → `format:` \> `html:` \> `theme:`. For more info on HTML theme options, see these [Quarto Docs](https://quarto.org/docs/output-formats/html-themes.html).
 
-To change the fonts or colors, or further customize the appearance, edit `custom-theme.scss`. Read more on [Quarto custom theming](https://quarto.org/docs/output-formats/html-themes-more.html) or see the full [darkly.scss theme](https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss) to see more variables to customize.
+To change the fonts or colors, or further customize the appearance, edit `custom-theme.scss`. Read more on [Quarto custom theming](https://quarto.org/docs/output-formats/html-themes-more.html) or see the full [flatly.scss theme](https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/flatly.scss) to see more variables to customize.
 
 ### Website configuration or pages
 
