@@ -47,19 +47,42 @@ $navbar-fg: $light;
 
 /// Projects page: cards
 
-// Add padding around content within card
+// Style the card
 .card {
+  // Add padding around content within card
   padding: 1em;
+  // Background color is lighter than page background
+  background-color: lighten($light, 10);
+  // Style border
+  border-radius: 1em !important;
+  border-width: 2;
+  border-color: darken($light, 25);
+  // Make the text and image display inline
+  display: inline-block;
+  // Add space after each card
+  margin-bottom: 1em;
 }
 
-// Reduce extra spacing above card title
+// Style title like a heading
 .card-title {
-  margin-top: -2em;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
-// Add spacing between columns of cards
-.card-group {
-  gap: 1em;
+// Wrap text around image, make image 50% the size of the card, and add padding between text and image
+.card-image {
+  float: right;
+  width: 50%;
+  padding-left: 2em;
+}
+
+// When on small screens, don't wrap text around the image and make the image fill the card
+@media screen and (max-width: 500px) {
+  .card-image {
+      float: none;
+      width: fit-content;
+      padding-left: 0;
+  }
 }
 
 /// Inline code

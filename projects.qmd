@@ -8,38 +8,28 @@ format:
 
 The following projects are the current main areas of research of our group. Side-projects are not listed. For projects and products not directly related to research, such as software, online courses, presentations, and other materials, please see [Dr. Handel’s personal website](https://www.andreashandel.com/).
 
-<!-- Start card group -->
-::: {.card-group}
+::: {.card}
 
-:::: {.card}
-::::: {.card-title}
-## Designing better influenza vaccines
-:::::
+[Designing better influenza vaccines]{.card-title}
 
-![](images/projects/influenza-vaccines.png)
+![](images/projects/influenza-vaccines.png){.card-image}
 
 We are using modeling and analysis approaches to determine how to optimize vaccine formulation, with a focus on the impact of dose for future universal influenza vaccines. The work is part of the [Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)](https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/), which is a component of NIH’s [Collaborative Influenza Vaccine Innovation Centers (CIVICs) program](https://www.niaidcivics.org/).
-::::
+:::
 
-:::: {.card}
-::::: {.card-title}
-## Model-guided vaccines for norovirus
-:::::
+::: {.card}
 
-![](images/projects/norovirus-vaccines.png)
+[Model-guided vaccines for norovirus]{.card-title}
+
+![](images/projects/norovirus-vaccines.png){.card-image}
 
 We are working on better understanding aspects of norovirus within-host and epidemiological dynamics and potential control. We analyze and model data that can inform the development and deployment of future norovirus vaccines. This is part of an NIH funded project with collaborators [Ben Lopman](https://www.blopman.net/), [Katia Koelle](https://scholarblogs.emory.edu/koellelab/) and [Juan Leon](https://www.sph.emory.edu/research/centers/leonlab/index.html) at Emory, as well as colleagues from other universities, the CDC and Takeda.
-::::
+:::
 
-:::: {.card}
-::::: {.card-title}
-## Modeling and analysis of influenza immune responses
-:::::
+::: {.card}
+[Modeling and analysis of influenza immune responses]{.card-title}
 
-![](images/projects/influenza-immunity.png)
+![](images/projects/influenza-immunity.png){.card-image}
 
 We want to understand what mechanisms lead to good induction of memory immune responses following vaccination, and what mechanisms influence the severity of infections. To that end, we combine statistical and mechanistic models with data. We work on several projects in this area, some are part of the the [Center for Influenza Vaccine Research for High-Risk Populations (CIVR-HRP)](https://www.niaidcivics.org/center-for-influenza-vaccine-research-for-high-risk-populations-civr-hrp/), others are part of the Center for Influenza Disease and Emergence Research (CIDER), a component of NIH’s [Centers of Excellence for Influenza Research and Response (CEIRR)](https://www.ceirr-network.org/), and some are part of the project [Dynamics and Evolution of Immune Responses to Influenza Viruses](https://reporter.nih.gov/project-details/10204919) with colleague [Rustom Antia as PI](http://www.biology.emory.edu/Antia/) and other collaborators.
-::::
-
-<!-- End card group -->
 :::

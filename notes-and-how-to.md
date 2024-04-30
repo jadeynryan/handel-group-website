@@ -40,8 +40,8 @@ Edit `publications.qmd`.
 
 1.  Add an image to `images/projects/`.
 2.  Edit `projects.qmd`.
-    -   Copy a card div (starts with `:::: {.card}` and ends with `::::`)
-    -   Modify the card title, image, and description.
+    -   Copy a card div (starts with `::: {.card}` and ends with `:::`)
+    -   Modify the card title, image, and description. Note the title and image use spans to assign the CSS class `.card-title` or `.card-image`. For more info, see the [Quarto Docs on divs and spans](https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans). These CSS classes are defined in `custom-theme.scss`.
 
 ### Group members
 
