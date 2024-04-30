@@ -1,4 +1,5 @@
-- name: Alexander Becker
+- first-name: Alexander
+  last-name: Becker
   image: images/people/alexander-becker.jpg
   role: REU Student
   years: 2013
@@ -7,7 +8,8 @@
     - href: https://scholar.google.com/citations?user=h6dwPboAAAAJ&hl=en
       icon: academicons:google-scholar
 
-- name: Amanda Skarlupka
+- first-name: Amanda
+  last-name: Skarlupka
   image: images/people/amanda-skarlupka.jpg
   role: MS Student
   years: 2021 - 2022
@@ -16,7 +18,8 @@
     - href: https://www.linkedin.com/in/amanda-skarlupka-phd-ms-739496184/
       icon: fa6-brands:linkedin
 
-- name: Annaliese Wieler
+- first-name: Annaliese
+  last-name: Wieler
   image: images/people/annaliese-wieler.jpg
   role: REU Student
   years: 2017
@@ -25,13 +28,15 @@
     - href: https://www.linkedin.com/in/annaliese-wieler-203a11aa/
       icon: fa6-brands:linkedin
 
-- name: Anne Marie Dye
+- first-name: Anne Marie
+  last-name: Dye
   image: images/people/anne-marie-dye.jpg
   role: Undergraduate Researcher
   years: 2021-2022
   research: Norovirus infection studies
 
-- name: Annika Cleven
+- first-name: Annika
+  last-name: Cleven
   image: images/people/annika-cleven.jpg
   role: REU Student
   years: 2022
@@ -40,13 +45,15 @@
     - href: https://www.linkedin.com/in/annika-cleven
       icon: fa6-brands:linkedin
 
-- name: Anthony Elengickal
+- first-name: Anthony
+  last-name: Elengickal
   image: images/people/anthony-elengickal.jpg
   role: Undergraduate Researcher
   years: 2020-2022
   research: STI transmission
 
-- name: Brian McKay
+- first-name: Brian
+  last-name: McKay
   image: images/people/brian-mcKay.jpg
   role: PhD Student
   years: 2016 - 2019
@@ -57,7 +64,8 @@
     - href: https://github.com/bmckay
       icon: fa6-brands:github
 
-- name: Isaac Fung
+- first-name: Isaac
+  last-name: Fung
   image: images/people/isaac-fung.jpg
   role: Postdoctoral Fellow
   years: 2009 - 2011
@@ -66,7 +74,8 @@
     - href: https://sites.google.com/a/georgiasouthern.edu/fung/
       icon: fa-solid:globe
 
-- name: Jacqueline Dworaczyk
+- first-name: Jacqueline
+  last-name: Dworaczyk
   image: images/people/jacqueline-dworaczyk.jpg
   role: REU Student
   years: 2021
@@ -75,13 +84,15 @@
     - href: https://www.linkedin.com/in/jacquelinedworaczyk
       icon: fa6-brands:linkedin
 
-- name: Kala Hubbard
+- first-name: Kala
+  last-name: Hubbard
   image: images/people/kala-hubbard.jpg
   role: MS Student
   years: 2020-2022
   research: STI transmission
 
-- name: Kylie Balotin
+- first-name: Kylie
+  last-name: Balotin
   image: images/people/kylie-balotin.jpg
   role: REU Student
   years: 2014
@@ -90,25 +101,29 @@
     - href: https://www.linkedin.com/in/kylie-balotin-a87118110/
       icon: fa6-brands:linkedin
 
-- name: Nibiao Zheng
+- first-name: Nibiao
+  last-name: Zheng
   image: images/people/nibiao-zheng.jpg
   role: PhD Student
   years: 2009 - 2013
   research: Evolutionary analysis of TB latency
 
-- name: Priyanka Sunil Parikh
+- first-name: Priyanka Sunil
+  last-name: Parikh
   image: images/people/priyanka-parikh.jpg
   role: Undergraduate Researcher
   years: 2020 - 2022
   research: Norovirus infection studies
 
-- name: Rachel Mercaldo
+- first-name: Rachel
+  last-name: Mercaldo
   image: images/people/rachel-mercaldo.jpg
   role: PhD Student
   years: 2018 - 2021
   research: Ebola, Tuberculosis and SARS-CoV-2
 
-- name: Salil Goyal
+- first-name: Salil
+  last-name: Goyal
   image: images/people/salil-goyal.jpg
   role: REU Student
   years: 2021
@@ -117,7 +132,8 @@
     - href: http://linkedin.com/in/salil-goyal
       icon: fa6-brands:linkedin
 
-- name: Sang Lee
+- first-name: Sang
+  last-name: Lee
   image: images/people/sang-lee.jpg
   role: Undergraduate Researcher
   years: 2015
@@ -126,19 +142,22 @@
     - href: https://www.linkedin.com/in/kylie-balotin-a87118110/
       icon: fa6-brands:linkedin
 
-- name: Scott Russell
+- first-name: Scott
+  last-name: Russell
   image: images/people/scott-russell.jpg
   role: MS Student
   years: 2009 - 2023
   research: Within-host modeling of norovirus
 
-- name: Simran Budhwar
+- first-name: Simran
+  last-name: Budhwar
   image: images/people/avatar.jpg
   role: MS Student
   years: Summer 2019
   research: Norovirus patient data analysis
 
-- name: Sina Solaimanpour
+- first-name: Sina
+  last-name: Solaimanpour
   image: images/people/sina-solaimanpour.jpg
   role: MS Student
   years: 2015 - 2016
@@ -147,13 +166,15 @@
     - href: https://www.linkedin.com/in/ssolaimanpour/
       icon: fa6-brands:linkedin
 
-- name: Taylor Joseph
+- first-name: Taylor
+  last-name: Joseph
   image: images/people/avatar.jpg
   role: REU Student
   years: 2015
   research: TB drug adherence modeling
 
-- name: Theresa Devasia
+- first-name: Theresa
+  last-name: Devasia
   image: images/people/theresa-devasia.jpg
   role: Undergraduate Researcher
   years: 2012 - 2016
@@ -162,7 +183,8 @@
     - href: https://www.researchgate.net/profile/Theresa_Devasia
       icon: fa6-brands:researchgate
 
-- name: Victoria Akin
+- first-name: Victoria
+  last-name: Akin
   image: images/people/victoria-akin.jpg
   role: Undergraduate Researcher
   years: 2009 - 2012
@@ -171,7 +193,8 @@
     - href: https://math.duke.edu/people/victoria-s-akin
       icon: fa-solid:globe
 
-- name: Wei-En Lu
+- first-name: Wei-En
+  last-name: Lu
   image: images/people/weien-lu.jpg
   role: REU Student
   years: 2018
@@ -180,7 +203,8 @@
     - href: https://www.linkedin.com/in/weienlu/
       icon: fa6-brands:linkedin
 
-- name: Yan Li
+- first-name: Yan
+  last-name: Li
   image: images/people/yan-li.jpg
   role: PhD Student
   years: 2009 - 2013
@@ -191,7 +215,8 @@
     - href: https://www.linkedin.com/in/yan-li-80084213/
       icon: fa6-brands:linkedin
 
-- name: Yang Ge
+- first-name: Yang
+  last-name: Ge
   image: images/people/yang-ge.png
   role: PhD Student
   years: 2018 - 2022

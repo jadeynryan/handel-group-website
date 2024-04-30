@@ -8,7 +8,7 @@
 
     <% for (const item of items) { %>
 
-    <div class="g-col-12 g-col-sm-6 g-col-md-3 mb-2 text-center">
+    <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-md-3 mb-2 text-center">
         <div class="avatar-circle">
             <img
                 class="avatar avatar-circle"
@@ -16,7 +16,7 @@
                 alt="Photo of <%= item.name %>" />
         </div>
 
-        <h3><%= item.name %></h3>
+        <h3><%= item['first-name'] %> <%= item['last-name'] %></h3>
 
         <% if (item.role) { %>
         <p>

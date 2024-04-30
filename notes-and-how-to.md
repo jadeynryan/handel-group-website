@@ -4,6 +4,7 @@
 -   **\_freeze**: [storage for computational results of documents](https://quarto.org/docs/projects/code-execution.html#freeze)
 -   **\_quarto.yml**: [config file](https://quarto.org/docs/websites/#config-file) for site metadata, website options ([navigation](https://quarto.org/docs/websites/website-navigation.html), [Google Analytics tag](https://quarto.org/docs/websites/website-tools.html#google-analytics)), and [html options](https://quarto.org/docs/output-formats/html-basics.html)
 -   **\_site**: rendered site files to be copied to UGA server
+-   **andreas-handel.qmd**: about page with Andreas' bio
 -   **custom-theme.scss**: SCSS and CSS for styling website
 -   **handel-group-website.Rproj**: RStudio project file
 -   **images**: header image, logo, and subfolders for images for people & project pages
@@ -60,9 +61,17 @@ Edit `publications.qmd`.
 
 `people.qmd` uses a [custom listing](#0) template (`people.ejs`) that generates the HTML of the Group Members page using the content from `people-current.yml` and `people-former.yml`. The `.yml` files (edit these) pass the info for each person to the `.ejs` file (don't edit this, unless new fields are needed). The current fields used in the template are: name, image, role, and links. The only fields that are required are name and image.
 
-#### Member links/icons
+##### Andreas' bio page
+
+Edit `andreas-handel.qmd`. This page uses and modifies the [Trestles about template](https://quarto.org/docs/websites/website-about.html).
+
+#### Links/icons
 
 `people.ejs` loads and uses the [iconify design](https://icon-sets.iconify.design/) javascript package so almost all icon packages are available (e.g., [Font Awesome Brands](https://icon-sets.iconify.design/fa6-brands/?list=recent), [Academicons](https://icon-sets.iconify.design/academicons/?keyword=aca)) using the syntax `academicons:google-scholar` under the `icon:` field.
+
+`people.qmd` and `andreas-handel.qmd` use the Quarto shortcode syntax to use the [`iconify extension`](https://github.com/mcanouil/quarto-iconify).
+
+The reason the syntax is different between the `people-current/former.yml` and the `.qmd` files is that the `icon` field in the `.yml` files are directly embedded in the HTML of the website through `people.ejs`. Conversely, the `.qmd` files use a [shortcode](https://quarto.org/docs/extensions/creating.html) which is a separate markdown directive.
 
 ### Resources
 

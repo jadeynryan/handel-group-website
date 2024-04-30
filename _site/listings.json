@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/news/2022-08-23-updates/index.html",
@@ -16,5 +12,9 @@
       "/news/2020-01-02-a-few-new-publications/index.html",
       "/news/2019-12-01-brian-phd-defense/index.html"
     ]
+  },
+  {
+    "listing": "/people.html",
+    "items": []
   }
 ]
