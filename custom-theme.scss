@@ -9,7 +9,7 @@ $font-family-sans-serif: Roboto, sans-serif;
 // Set color variables
 $primary: #3D4EAF;
 $dark: #282A35;
-$light: #f8f8f2;
+$light: #F0F1FA;
 
 // Link colors
 $link-color: $primary;
@@ -70,10 +70,16 @@ $navbar-fg: $light;
 }
 
 // Wrap text around image, make image 50% the size of the card, and add padding between text and image
-.card-image {
+.card-image-right {
   float: right;
   width: 50%;
   padding-left: 2em;
+}
+
+.card-image-left {
+  float: left;
+  width: 50%;
+  padding-right: 2em;
 }
 
 // When on small screens, don't wrap text around the image and make the image fill the card
@@ -82,12 +88,13 @@ $navbar-fg: $light;
       float: none;
       width: fit-content;
       padding-left: 0;
+      padding-right: 0;
   }
 }
 
 /// Inline code
 p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
-    color: $primary;
-    background-color: darken($light, 10);
+    color: darken($primary, 10);
+    background-color: darken($light, 5);
     padding: .2em;
 }

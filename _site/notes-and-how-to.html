@@ -205,7 +205,7 @@ ga('send', {
 <li>Edit <code>projects.qmd</code>.
 <ul>
 <li>Copy a card div (starts with <code>::: {.card}</code> and ends with <code>:::</code>)</li>
-<li>Modify the card title, image, and description. Note the title and image use spans to assign the CSS class <code>.card-title</code> or <code>.card-image</code>. For more info, see the <a href="https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans">Quarto Docs on divs and spans</a>. These CSS classes are defined in <code>custom-theme.scss</code>.</li>
+<li>Modify the card title, image, and description. Note the title and image use spans to assign the CSS class <code>.card-title</code> or <code>.card-image-left</code> (floats the image to the left) or <code>.card-image-right</code> (floats the image to the right). For more info, see the <a href="https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans">Quarto Docs on divs and spans</a>. These CSS classes are defined in <code>custom-theme.scss</code>.</li>
 </ul></li>
 </ol>
 </section>
@@ -229,7 +229,7 @@ ga('send', {
 <p><code>people.qmd</code> uses a <a href="#0">custom listing</a> template (<code>people.ejs</code>) that generates the HTML of the Group Members page using the content from <code>people-current.yml</code> and <code>people-former.yml</code>. The <code>.yml</code> files (edit these) pass the info for each person to the <code>.ejs</code> file (don’t edit this, unless new fields are needed). The current fields used in the template are: name, image, role, and links. The only fields that are required are name and image.</p>
 <section id="andreas-bio-page" class="level5">
 <h5 class="anchored" data-anchor-id="andreas-bio-page">Andreas’ bio page</h5>
-<p>Edit <code>andreas-handel.qmd</code>. This page uses and modifies the <a href="https://quarto.org/docs/websites/website-about.html">Trestles about template</a>.</p>
+<p>This page is currently live but not accessible through any links. If you change your mind and want this page, uncomment out the markdown at the top of <code>people.qmd</code> and comment out your entry in <code>people-current.yml</code>. Edit <code>andreas-handel.qmd</code>. This page uses and modifies the <a href="https://quarto.org/docs/websites/website-about.html">Trestles about template</a>.</p>
 </section>
 </section>
 <section id="linksicons" class="level4">

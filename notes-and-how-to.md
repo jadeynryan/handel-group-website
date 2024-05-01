@@ -42,7 +42,7 @@ Edit `publications.qmd`.
 1.  Add an image to `images/projects/`.
 2.  Edit `projects.qmd`.
     -   Copy a card div (starts with `::: {.card}` and ends with `:::`)
-    -   Modify the card title, image, and description. Note the title and image use spans to assign the CSS class `.card-title` or `.card-image`. For more info, see the [Quarto Docs on divs and spans](https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans). These CSS classes are defined in `custom-theme.scss`.
+    -   Modify the card title, image, and description. Note the title and image use spans to assign the CSS class `.card-title` or `.card-image-left` (floats the image to the left) or `.card-image-right` (floats the image to the right). For more info, see the [Quarto Docs on divs and spans](https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans). These CSS classes are defined in `custom-theme.scss`.
 
 ### Group members
 
@@ -63,7 +63,7 @@ Edit `publications.qmd`.
 
 ##### Andreas' bio page
 
-Edit `andreas-handel.qmd`. This page uses and modifies the [Trestles about template](https://quarto.org/docs/websites/website-about.html).
+This page is currently live but not accessible through any links. If you change your mind and want this page, uncomment out the markdown at the top of `people.qmd` and comment out your entry in `people-current.yml`. Edit `andreas-handel.qmd`. This page uses and modifies the [Trestles about template](https://quarto.org/docs/websites/website-about.html).
 
 #### Links/icons
 
