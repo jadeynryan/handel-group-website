@@ -6,7 +6,7 @@ categories:
   - News
 ---
 
-Nobody from the group graduated last year, but [Hayley Hemme](/people/hayley-hemme/) joined our group as a new PhD student!
+Nobody from the group graduated last year, but Hayley Hemme joined our group as a new PhD student!
 
 As usual, we kept publishing a few papers, which you can learn more about in the [publications](/publications.qmd) section of the website. 
 

@@ -7,7 +7,7 @@ categories:
 ---
 
 
-We had another great REU student join us this summer, [Annika Cleven](/people/annika-cleven/). Together with Zane, she continued work on a project that [Jacqueline](/people/jacqueline-dworaczyk/) started in the prior year. The paper should be done soon.
+We had another great REU student join us this summer, Annika Cleven. Together with Zane Billings, she continued work on a project that Jacqueline Dworaczyk started in the prior year. The paper should be done soon.
 
 We also published a few more papers this year, links with locations where you can find the papers are in the [publications](/publications.qmd) section of the website. 
 
