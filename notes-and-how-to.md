@@ -43,7 +43,17 @@ Edit `publications.qmd`.
 2.  Edit `projects.qmd`.
     -   Copy a card div (starts with `::: {.card}` and ends with `:::`)
     -   Modify the card title, image, and description. Note the title and image use spans to assign the CSS class `.card-title` or `.card-image-left` (floats the image to the left) or `.card-image-right` (floats the image to the right). For more info, see the [Quarto Docs on divs and spans](https://quarto.org/docs/authoring/markdown-basics.html#sec-divs-and-spans). These CSS classes are defined in `custom-theme.scss`.
-
+    -   By default, the image takes 50% and the text takes 50% of the card. Override this by setting the image width:
+        ```
+        ::: {.card}
+        
+        [Title]{.card-title}
+        
+        ![](images/image.png){.card-image-left width="30%"}
+        
+        Text here, taking up 70% of page.
+        :::
+        ```
 ### Group members
 
 **To change a current member to a former member:**
